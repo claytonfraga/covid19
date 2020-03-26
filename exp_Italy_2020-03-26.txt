@@ -1,7 +1,7 @@
 
  Italy 
 Projecao:  7  dias
-Gerado em:  2020-03-26 18:00:58
+Gerado em:  2020-03-26 18:10:53
 RMSE(%):  22.8 , BIAS(%): 5.82
 
 Taxa de Mortalidade 10.19 %
@@ -28,7 +28,7 @@ Taxa de Mortalidade 10.19 %
 94 2020-04-01   141192          182858     224524             18640                NA
 95 2020-04-02   159488          206553     253618             21055                NA
 
-Total de casos no mundo:  525297
+Total de casos no mundo:  525605
 
 Estimados a partir dos dados da OMS:
    day       date     x  xest
