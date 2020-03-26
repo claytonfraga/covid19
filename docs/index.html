@@ -2,9 +2,9 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
 
     <title>COVID-19</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -25,60 +25,73 @@
 <body>
 <p></p>
 <h1>Apresenta&ccedil;&atilde;o<a name="apresentacao"></a></h1>
-<p><span ></span></p>
-<p><span >Este site tem como objetivo apresentar dados resumidos de casos relatados da COVID-19 e proje&ccedil;&otilde;es de novos casos para 7 dias utilizando modelos estat&iacute;sticos.
+<p><span></span></p>
+<p><span>Este site tem como objetivo apresentar dados resumidos de casos relatados da COVID-19 e proje&ccedil;&otilde;es de novos casos para 7 dias utilizando modelos estat&iacute;sticos.
 Espero que seja útil para interesses diversos.</span>
 </p>
-<p><span >Os dados s&atilde;o obtidos e processados de duas fontes:</span></p>
+<p><span>Os dados s&atilde;o obtidos e processados de duas fontes:</span></p>
 <ul>
     <li><span>Dados disponibilizados pelo</span><span class="c1">&nbsp;European Centre for Disease Prevention and Control (ECDC)</span><span
-    >&nbsp;s&atilde;o de casos relatados at&eacute; o dia anterior (RICHIE, 2020). &nbsp;</span></li>
-    <li><span>Outra fonte de dados utilizadas, &eacute; o </span><span>Worldometer - Coronavirus</span><span > que permite ao p&uacute;blico relatar casos da doen&ccedil;a, informando o pa&iacute;s, o n&uacute;mero de casos e o link para o site de origem, para checagem da equipe (WORLDOMETER, 2020).</span>
+    >&nbsp;s&atilde;o de casos relatados at&eacute; o dia anterior (RICHIE, 2020). &nbsp;</span>
+    </li>
+    <li>
+        <span>Outra fonte de dados utilizadas, &eacute; o </span><span>Worldometer - Coronavirus</span><span> que permite ao p&uacute;blico relatar casos da doen&ccedil;a, informando o pa&iacute;s, o n&uacute;mero de casos e o link para o site de origem, para checagem da equipe (WORLDOMETER, 2020).</span>
     </li>
 </ul>
-<p><span ></span></p>
-<p><span ></span></p>
+<p><span></span></p>
+<p><span></span></p>
 <h2>Frequência de atualiza&ccedil;&atilde;o<a name="procedimento"></a></h2>
-<p ><span ></span></p>
-<p><span >Após a atualiza&ccedil;&atilde;o dos dados da ECDC que ocorre normalmente até o meio dia (horário de Brasília), os dados deste site passam a ser atualizados a cada trinta minutos, exceto da sess&atilde;o "Demais países", atualizada uma vez por dia,
-    salvo quando houver indisponibilidade de algum dos servi&ccedil;os e computadores utilizados no processamento e distribui&ccedil;&atilde;o dos conteúdos.</span></p>
+<p><span></span></p>
+<p><span>Após a atualiza&ccedil;&atilde;o dos dados da ECDC que ocorre geralmente <b>até o meio dia (horário de Brasília)</b>, os dados deste site passam a ser atualizados a cada trinta minutos, exceto da sess&atilde;o "Demais países", atualizada uma vez por dia,
+    salvo quando houver indisponibilidade de algum dos servi&ccedil;os e computadores utilizados no processamento e distribui&ccedil;&atilde;o dos conteúdos.</span>
+</p>
 
 
 <h2>Procedimento adotado<a name="procedimento"></a></h2>
-<p ><span ></span></p>
-<p><span >De posse dos dados provenientes das duas fontes, s&atilde;o realizados procedimento de tratamento com o objetivo de realizar a extra&ccedil;&atilde;o de dados das fontes, a adequa&ccedil;&atilde;o de formatos, a elimina&ccedil;&atilde;o de eventuais erros de duplicidade, dentre outras. Neste ponto temos um conjunto de dados unificado dos casos relatados da COVID-19, deste o in&iacute;cio do surto at&eacute; a data atual. Importante salientar que nenhum tipo de altera&ccedil;&atilde;o num&eacute;rica &eacute; realizada, e a responsabilidade pelo n&uacute;mero de casos relatados &eacute; das fontes consultadas.</span>
+<p><span></span></p>
+<p><span>De posse dos dados provenientes das duas fontes, s&atilde;o realizados procedimento de tratamento com o objetivo de realizar a extra&ccedil;&atilde;o de dados das fontes, a adequa&ccedil;&atilde;o de formatos, a elimina&ccedil;&atilde;o de eventuais erros de duplicidade, dentre outras. Neste ponto temos um conjunto de dados unificado dos casos relatados da COVID-19, deste o in&iacute;cio do surto at&eacute; a data atual. Importante salientar que nenhum tipo de altera&ccedil;&atilde;o num&eacute;rica &eacute; realizada, e a responsabilidade pelo n&uacute;mero de casos relatados &eacute; das fontes consultadas.</span>
 </p>
-<p><span >Em seguida s&atilde;o realizados ajustes de dois modelos de regress&atilde;o: um que captura a tend&ecirc;ncia de crescimento exponencial, outro log&iacute;stico, que leva em considera&ccedil;&atilde;o o crescimento do n&uacute;mero de casos, mas permite a modelagem da satura&ccedil;&atilde;o da curva.</span>
+<p><span>Em seguida s&atilde;o realizados ajustes de dois modelos de regress&atilde;o: um que captura a tend&ecirc;ncia de crescimento exponencial, outro log&iacute;stico, que leva em considera&ccedil;&atilde;o o crescimento do n&uacute;mero de casos, mas permite a modelagem da satura&ccedil;&atilde;o da curva.</span>
 </p>
-<p><span >A escolha dos modelos baseia-se em duas hip&oacute;teses:</span></p>
+<p><span>A escolha dos modelos baseia-se em duas hip&oacute;teses:</span></p>
 <ol class="c4 lst-kix_iqvofax7u2k4-0 start" start="1">
-    <li><span >O exponencial: cuja expectativa &eacute; capturar a tend&ecirc;ncia de crescimento do n&uacute;mero de casos, considerando uma situa&ccedil;&atilde;o extrema, por exemplo, em um cen&aacute;rio no qual o v&iacute;rus se espalha com mais velocidade</span>
+    <li><span>O exponencial: cuja expectativa &eacute; capturar a tend&ecirc;ncia de crescimento do n&uacute;mero de casos, considerando uma situa&ccedil;&atilde;o extrema, por exemplo, em um cen&aacute;rio no qual o v&iacute;rus se espalha com mais velocidade</span>
     </li>
-    <li><span >O log&iacute;stico: para o qual se espera capturar o comportamento de crescimento menos acelerado, podendo chegar a uma satura&ccedil;&atilde;o. Este modelo poderia explicar um cen&aacute;rio no qual medidas de higiene, isolamento social, e demais cuidados produzam a desacelera&ccedil;&atilde;o da transmiss&atilde;o, e como consequ&ecirc;ncia a redu&ccedil;&atilde;o do n&uacute;mero de casos relatados.</span>
+    <li><span>O log&iacute;stico: para o qual se espera capturar o comportamento de crescimento menos acelerado, podendo chegar a uma satura&ccedil;&atilde;o. Este modelo poderia explicar um cen&aacute;rio no qual medidas de higiene, isolamento social, e demais cuidados produzam a desacelera&ccedil;&atilde;o da transmiss&atilde;o, e como consequ&ecirc;ncia a redu&ccedil;&atilde;o do n&uacute;mero de casos relatados.</span>
     </li>
 </ol>
 <p><span
-        >N&atilde;o temos a pretens&atilde;o de validar as &nbsp;hip&oacute;teses apresentadas. </span></p>
+>N&atilde;o temos a pretens&atilde;o de validar as &nbsp;hip&oacute;teses apresentadas. </span></p>
 <p><span>Por fim, s&atilde;o realizadas proje&ccedil;&otilde;es do n&uacute;mero de casos da COVID-19 para os pr&oacute;ximos 7 dias a considerar a data atual, utilizando as equa&ccedil;&otilde;es ajustadas para cada modelo, com o respectivo erro associado ao ajuste da equa&ccedil;&atilde;o, apresentado de forma gr&aacute;fica.</span>
 </p>
 <h2>Reposit&oacute;rio de dados (datasets) da COVID19<a name="repositorio"></a></h2>
-<p>&nbsp;Todos os dados processados e gerados est&atilde;o dispon&iacute;veis para downalod no reposit&oacute;rio p&uacute;blico (Github) neste <a href="https://github.com/claytonfraga/covid19" target="_blank" rel="noopener">link</a>.</p>
+<p>&nbsp;Todos os dados processados e gerados est&atilde;o dispon&iacute;veis para downalod no
+    reposit&oacute;rio p&uacute;blico (Github) neste <a
+            href="https://github.com/claytonfraga/covid19" target="_blank" rel="noopener">link</a>.
+</p>
 <p>S&atilde;o 2 tipos de dados:</p>
 <ul>
     <li>Dados em formato CSV:
         <ol>
             <li>Dados atualizados com informa&ccedil;oes da ECDC e do Worldometer</li>
-            <li>Dados com as proje&ccedil;&otilde;es para os pr&oacute;ximos 7 dias para todos os países com casos relatados para os dois modelos adotados</li>
-            <li>Arquivos com resumo das proje&ccedil;&otilde;es e outras estat&iacute;sticas de alguns pa&iacute;ses</li>
+            <li>Dados com as proje&ccedil;&otilde;es para os pr&oacute;ximos 7 dias para todos os
+                países com casos relatados para os dois modelos adotados
+            </li>
+            <li>Arquivos com resumo das proje&ccedil;&otilde;es e outras estat&iacute;sticas de
+                alguns pa&iacute;ses
+            </li>
         </ol>
     </li>
     <li>Gr&aacute;ficos est&aacute;ticos:
         <ol>
-            <li>Gr&aacute;ficos est&aacute;ticos para cada dia de monitoramento em 2 formatos: JPEG e BMP.</li>
+            <li>Gr&aacute;ficos est&aacute;ticos para cada dia de monitoramento em 2 formatos: JPEG
+                e BMP.
+            </li>
         </ol>
     </li>
 </ul>
-<p>O acesso &eacute; p&uacute;blico, espera-se que a comunidade possa contribuir e utiliz&aacute;-los de acordo com suas necessidades.</p>
+<p>O acesso &eacute; p&uacute;blico, espera-se que a comunidade possa contribuir e utiliz&aacute;-los
+    de acordo com suas necessidades.</p>
 <h1>Casos relatados da COVID-19<a name="projecoes"></a></h1>
 <h2>Países com maior número de casos e Brasil<a name="brazil"></a></h2>
 <iframe id="mundo" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
@@ -100,63 +113,74 @@ Espero que seja útil para interesses diversos.</span>
         width="100%" height="640">
 </iframe>
 <h3>Modelo Logístico</h3>
-<iframe id="igraph2" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+<iframe id="igraph2" class="holds-the-iframe" scrolling="no" style="border:none;"
+        seamless="seamless"
         src="Brazil_logistico.html"
         width="100%" height="640">
 </iframe>
 <br>
 <h2>Itália<a name="italy"></a></h2>
 <h3>Modelo Exponencial</h3>
-<iframe id="igraph3" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+<iframe id="igraph3" class="holds-the-iframe" scrolling="no" style="border:none;"
+        seamless="seamless"
         src="Italy_exp.html"
         width="100%" height="640">
 </iframe>
 <h3>Modelo Logístico</h3>
-<iframe id="igraph4" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+<iframe id="igraph4" class="holds-the-iframe" scrolling="no" style="border:none;"
+        seamless="seamless"
         src="Italy_logistico.html"
         width="100%" height="640">
 </iframe>
 <h2>USA<a name="usa"></a></h2>
 <h3>Modelo Exponencial</h3>
-<iframe id="igraph5" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+<iframe id="igraph5" class="holds-the-iframe" scrolling="no" style="border:none;"
+        seamless="seamless"
         src="United_States_exp.html"
         width="100%" height="640">
 </iframe>
 <h3>Modelo Logístico</h3>
-<iframe id="igraph6" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+<iframe id="igraph6" class="holds-the-iframe" scrolling="no" style="border:none;"
+        seamless="seamless"
         src="United_States_logistico.html"
         width="100%" height="640">
 </iframe>
 <br>
 <h2>Espanha<a name="spain"></a></h2>
 <h3>Modelo Exponencial</h3>
-<iframe id="igraph7" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+<iframe id="igraph7" class="holds-the-iframe" scrolling="no" style="border:none;"
+        seamless="seamless"
         src="Spain_exp.html"
         width="100%" height="640">
 </iframe>
 <h3>Modelo Logístico</h3>
-<iframe id="igraph8" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+<iframe id="igraph8" class="holds-the-iframe" scrolling="no" style="border:none;"
+        seamless="seamless"
         src="Spain_logistico.html"
         width="100%" height="640">
 </iframe>
 <br>
 <h2>Crescimento semanal<a name="crescimento_semanal"></a></h2>
-<iframe id="igraph9" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+<iframe id="igraph9" class="holds-the-iframe" scrolling="no" style="border:none;"
+        seamless="seamless"
         src="crescimento_semanal.html"
         width="100%" height="640">
 </iframe>
 <h2>Crescimento semanal (desconsiderando a Itália)<a name="crescimento_semanal"></a></h2>
-<iframe id="igraph10" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+<iframe id="igraph10" class="holds-the-iframe" scrolling="no" style="border:none;"
+        seamless="seamless"
         src="crescimento_semanal2.html"
         width="100%" height="640">
 </iframe>
 <h2>Crescimento semanal (acima de 100 casos)<a name="crescimento_semanal"></a></h2>
-<iframe id="igraph11" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+<iframe id="igraph11" class="holds-the-iframe" scrolling="no" style="border:none;"
+        seamless="seamless"
         src="crescimento_semanal3.html"
         width="100%" height="640">
 </iframe>
 <h2>Crescimento semanal no Brasil <a name="crescimento_semanal"></a></h2>
-<iframe id="igraph12" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+<iframe id="igraph12" class="holds-the-iframe" scrolling="no" style="border:none;"
+        seamless="seamless"
         src="crescimento_semanal4.html"
         width="100%" height="640">
 </iframe>
@@ -165,7 +189,8 @@ Espero que seja útil para interesses diversos.</span>
 <h2>Demais países<a name="demais_paises"></a></h2>
 <div style="vertical-align: center">
     <iframe id="paises" class="holds-the-iframe" scrolling="yes"
-            style="border:none;display:block;margin-left: auto;margin-right: auto" seamless="seamless"
+            style="border:none;display:block;margin-left: auto;margin-right: auto"
+            seamless="seamless"
             src="paises.html"
             width="80%" height="640">
     </iframe>
@@ -173,13 +198,15 @@ Espero que seja útil para interesses diversos.</span>
 
 
 <br/>
-<p><b>Elaborado por</b>: <a heaf="mailto:clayton.fraga@ufes.br">Prof. Dr. Clayton Vieira Fraga Filho</a>
+<p><b>Elaborado por</b>: <a heaf="mailto:clayton.fraga@ufes.br">Prof. Dr. Clayton Vieira Fraga
+    Filho</a>
     <br>Departamento de Computação
     <br>Centro de Ciências Exatas, Naturais e da Saúde | CCENS
     <br>Universidade Federal do Espírito Santo | UFES </p>
 <h3>Fontes:</h3>
 <ol>
-    <li>RITCHIE, Hannah. <b>European Centre for Disease Prevention and Control (ECDC) - Coronavirus Source Data</b>.
+    <li>RITCHIE, Hannah. <b>European Centre for Disease Prevention and Control (ECDC) - Coronavirus
+        Source Data</b>.
         2020. Disponível em:
         <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank"
            style="color: #666666;">https://ourworldindata.org/coronavirus-source-data</a>.
