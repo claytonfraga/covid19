@@ -1,3 +1,13 @@
+
+.h_iframe iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+
 .ex3 {
     background-color: transparent;
     width: 100%;
@@ -9,10 +19,50 @@
     font-size: 13px;
     letter-spacing: 2px;
     word-spacing: 2px;
-    color: #8B8B8B;
+    color: #3c3f41;
     font-weight: normal;
     text-decoration: none;
     font-style: normal;
     font-variant: normal;
     text-transform: none;
+}
+
+.tituloTabela {
+    background: #3c3f41;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    height: 25px;
+}
+
+/*
+Generic Styling, for Desktops/Laptops
+*/
+table {
+    width: 80%;
+    border-collapse: collapse;
+    vertical-align: center;
+
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+th {
+    background: #FFFFFF;
+    color: white;
+    font-weight: bold;
+}
+td, th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: center;
 }
