@@ -20,6 +20,37 @@
 </head>
 <body>
 <p></p>
+<h1>Apresenta&ccedil;&atilde;o<a name="apresentacao"></a></h1>
+<p class="c3 c6"><span class="c0"></span></p>
+<p class="c3"><span class="c0">Este site tem como objetivo apresentar dados resumidos de casos relatados da COVID-19, e proje&ccedil;&otilde;es de novos casos para 7 dias utilizando modelos estat&iacute;sticos. </span>
+</p>
+<p class="c3 c6"><span class="c0"></span></p>
+<p class="c3"><span class="c0"></span></p>
+<h2>Procedimento adotado<a name="procedimento"></a></h2>
+<p class="c3 c6"><span class="c0"></span></p>
+<p class="c3"><span class="c0">Os dados s&atilde;o obtidos e processados de duas fontes:</span></p>
+<ul class="c4 lst-kix_uk7m658ez95-0 start">
+    <li class="c3 c5"><span>Dados disponibilizados pelo</span><span class="c1">&nbsp;European Centre for Disease Prevention and Control (ECDC)</span><span
+            class="c0">&nbsp;s&atilde;o de casos relatados at&eacute; o dia anterior (RICHIE, 2020). &nbsp;</span></li>
+    <li class="c3 c5"><span>Outra fonte de dados utilizadas &eacute; o </span><span
+            class="c1">Worldometer - Coronavirus</span><span class="c0">, que permite ao p&uacute;blico relatar casos da doen&ccedil;a, informando: o pa&iacute;s, o n&uacute;mero de casos e o link para o site de origem para checagem da equipe (WORLDOMETER, 2020).</span>
+    </li>
+</ul>
+<p class="c3"><span class="c0">De posse dos dados provenientes das duas fontes, s&atilde;o realizados procedimento de tratamento com o objetivo de realizar a extra&ccedil;&atilde;o de dados das fontes, a adequa&ccedil;&atilde;o de formatos, a elimina&ccedil;&atilde;o de eventuais erros de duplicidade, dentre outras. Neste ponto temos um conjunto de dados unificado dos casos relatados da COVID-19 deste o in&iacute;cio do surto at&eacute; a data atual. Importante salientar que nenhum tipo de altera&ccedil;&atilde;o num&eacute;rica &eacute; realizada, e a responsabilidade pelo n&uacute;mero de casos relatados &eacute; das fontes consultadas.</span>
+</p>
+<p class="c3"><span class="c0">Em seguida s&atilde;o realizados ajustes de dois modelos de regress&atilde;o: um que captura a tend&ecirc;ncia de crescimento exponencial; e outro, log&iacute;stico, que leva em considera&ccedil;&atilde;o o crescimento do n&uacute;mero de casos, mas permite a modelagem da satura&ccedil;&atilde;o da curva.</span>
+</p>
+<p class="c3"><span class="c0">A escolha dos modelos baseia-se em duas hip&oacute;teses:</span></p>
+<ol class="c4 lst-kix_iqvofax7u2k4-0 start" start="1">
+    <li class="c3 c5"><span class="c0">O exponencial: cuja expectativa &eacute; capturar a tend&ecirc;ncia de crescimento do n&uacute;mero de casos considerando uma situa&ccedil;&atilde;o extrema, por exemplo, em um cen&aacute;rio no qual o v&iacute;rus se espalha com mais velocidade</span>
+    </li>
+    <li class="c3 c5"><span class="c0">O log&iacute;stico: para o qual se espera capturar o comportamento de crescimento menos acelerado, podendo chegar a uma satura&ccedil;&atilde;o. Este modelo poderia explicar um cen&aacute;rio no qual medidas de higiene, isolamento social, e demais cuidados produzam a desacelera&ccedil;&atilde;o da transmiss&atilde;o, e como consequ&ecirc;ncia, a redu&ccedil;&atilde;o do n&uacute;mero de casos relatados.</span>
+    </li>
+</ol>
+<p class="c3"><span
+        class="c0">N&atilde;o temos a pretens&atilde;o de validar as &nbsp;hip&oacute;teses apresentadas. </span></p>
+<p class="c3"><span>Por fim, s&atilde;o realizadas proje&ccedil;&otilde;es do n&uacute;mero de casos da COVID-19 para os pr&oacute;ximos 7 dias a considerar a data atual, utilizando as equa&ccedil;&otilde;es ajustadas para cada modelo, com o respectivo erro associado ao ajuste da equa&ccedil;&atilde;o, apresentado de forma gr&aacute;fica.</span>
+</p>
 
 <h1>Casos relatados da COVID-19<a name="projecoes"></a></h1>
 <h2>Países com maior número de casos e Brasil<a name="brazil"></a></h2>
