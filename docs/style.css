@@ -1,9 +1,5 @@
 .holds-the-iframe {
     background:url(loading.gif) center center no-repeat;
-    border:none;
-    display:block;
-    margin-left: auto;
-    margin-right: auto
 }
 
 .ex3 {
