@@ -1,0 +1,18 @@
+div.ex3 {
+    background-color: transparent;
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+}
+fontePais {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #8B8B8B;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
