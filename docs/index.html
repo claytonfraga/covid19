@@ -26,35 +26,35 @@
 <p></p>
 <h1>Apresenta&ccedil;&atilde;o<a name="apresentacao"></a></h1>
 <p><span ></span></p>
-<p><span >Este site tem como objetivo apresentar dados resumidos de casos relatados da COVID-19, e proje&ccedil;&otilde;es de novos casos para 7 dias utilizando modelos estat&iacute;sticos.
+<p><span >Este site tem como objetivo apresentar dados resumidos de casos relatados da COVID-19 e proje&ccedil;&otilde;es de novos casos para 7 dias utilizando modelos estat&iacute;sticos.
 Espero que seja útil para interesses diversos.</span>
 </p>
 <p><span >Os dados s&atilde;o obtidos e processados de duas fontes:</span></p>
 <ul>
     <li><span>Dados disponibilizados pelo</span><span class="c1">&nbsp;European Centre for Disease Prevention and Control (ECDC)</span><span
     >&nbsp;s&atilde;o de casos relatados at&eacute; o dia anterior (RICHIE, 2020). &nbsp;</span></li>
-    <li><span>Outra fonte de dados utilizadas &eacute; o </span><span>Worldometer - Coronavirus</span><span >, que permite ao p&uacute;blico relatar casos da doen&ccedil;a, informando: o pa&iacute;s, o n&uacute;mero de casos e o link para o site de origem para checagem da equipe (WORLDOMETER, 2020).</span>
+    <li><span>Outra fonte de dados utilizadas, &eacute; o </span><span>Worldometer - Coronavirus</span><span > que permite ao p&uacute;blico relatar casos da doen&ccedil;a, informando o pa&iacute;s, o n&uacute;mero de casos e o link para o site de origem, para checagem da equipe (WORLDOMETER, 2020).</span>
     </li>
 </ul>
 <p><span ></span></p>
 <p><span ></span></p>
 <h2>Frequência de atualiza&ccedil;&atilde;o<a name="procedimento"></a></h2>
 <p ><span ></span></p>
-<p><span >Após a atualiza&ccedil;&atilde;o dos dados da ECDC, que ocorre normalmente até o meio dia (horário de Brasília), os dados deste site passam a ser atualizados a cada trinta minutos, exceto da sess&atilde;o "Demais países", atualizada uma vez por dia,
+<p><span >Após a atualiza&ccedil;&atilde;o dos dados da ECDC que ocorre normalmente até o meio dia (horário de Brasília), os dados deste site passam a ser atualizados a cada trinta minutos, exceto da sess&atilde;o "Demais países", atualizada uma vez por dia,
     salvo quando houver indisponibilidade de algum dos servi&ccedil;os e computadores utilizados no processamento e distribui&ccedil;&atilde;o dos conteúdos.</span></p>
 
 
 <h2>Procedimento adotado<a name="procedimento"></a></h2>
 <p ><span ></span></p>
-<p><span >De posse dos dados provenientes das duas fontes, s&atilde;o realizados procedimento de tratamento com o objetivo de realizar a extra&ccedil;&atilde;o de dados das fontes, a adequa&ccedil;&atilde;o de formatos, a elimina&ccedil;&atilde;o de eventuais erros de duplicidade, dentre outras. Neste ponto temos um conjunto de dados unificado dos casos relatados da COVID-19 deste o in&iacute;cio do surto at&eacute; a data atual. Importante salientar que nenhum tipo de altera&ccedil;&atilde;o num&eacute;rica &eacute; realizada, e a responsabilidade pelo n&uacute;mero de casos relatados &eacute; das fontes consultadas.</span>
+<p><span >De posse dos dados provenientes das duas fontes, s&atilde;o realizados procedimento de tratamento com o objetivo de realizar a extra&ccedil;&atilde;o de dados das fontes, a adequa&ccedil;&atilde;o de formatos, a elimina&ccedil;&atilde;o de eventuais erros de duplicidade, dentre outras. Neste ponto temos um conjunto de dados unificado dos casos relatados da COVID-19, deste o in&iacute;cio do surto at&eacute; a data atual. Importante salientar que nenhum tipo de altera&ccedil;&atilde;o num&eacute;rica &eacute; realizada, e a responsabilidade pelo n&uacute;mero de casos relatados &eacute; das fontes consultadas.</span>
 </p>
-<p><span >Em seguida s&atilde;o realizados ajustes de dois modelos de regress&atilde;o: um que captura a tend&ecirc;ncia de crescimento exponencial; e outro, log&iacute;stico, que leva em considera&ccedil;&atilde;o o crescimento do n&uacute;mero de casos, mas permite a modelagem da satura&ccedil;&atilde;o da curva.</span>
+<p><span >Em seguida s&atilde;o realizados ajustes de dois modelos de regress&atilde;o: um que captura a tend&ecirc;ncia de crescimento exponencial, outro log&iacute;stico, que leva em considera&ccedil;&atilde;o o crescimento do n&uacute;mero de casos, mas permite a modelagem da satura&ccedil;&atilde;o da curva.</span>
 </p>
 <p><span >A escolha dos modelos baseia-se em duas hip&oacute;teses:</span></p>
 <ol class="c4 lst-kix_iqvofax7u2k4-0 start" start="1">
-    <li><span >O exponencial: cuja expectativa &eacute; capturar a tend&ecirc;ncia de crescimento do n&uacute;mero de casos considerando uma situa&ccedil;&atilde;o extrema, por exemplo, em um cen&aacute;rio no qual o v&iacute;rus se espalha com mais velocidade</span>
+    <li><span >O exponencial: cuja expectativa &eacute; capturar a tend&ecirc;ncia de crescimento do n&uacute;mero de casos, considerando uma situa&ccedil;&atilde;o extrema, por exemplo, em um cen&aacute;rio no qual o v&iacute;rus se espalha com mais velocidade</span>
     </li>
-    <li><span >O log&iacute;stico: para o qual se espera capturar o comportamento de crescimento menos acelerado, podendo chegar a uma satura&ccedil;&atilde;o. Este modelo poderia explicar um cen&aacute;rio no qual medidas de higiene, isolamento social, e demais cuidados produzam a desacelera&ccedil;&atilde;o da transmiss&atilde;o, e como consequ&ecirc;ncia, a redu&ccedil;&atilde;o do n&uacute;mero de casos relatados.</span>
+    <li><span >O log&iacute;stico: para o qual se espera capturar o comportamento de crescimento menos acelerado, podendo chegar a uma satura&ccedil;&atilde;o. Este modelo poderia explicar um cen&aacute;rio no qual medidas de higiene, isolamento social, e demais cuidados produzam a desacelera&ccedil;&atilde;o da transmiss&atilde;o, e como consequ&ecirc;ncia a redu&ccedil;&atilde;o do n&uacute;mero de casos relatados.</span>
     </li>
 </ol>
 <p><span
