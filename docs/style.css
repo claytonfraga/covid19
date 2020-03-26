@@ -28,10 +28,11 @@
     top:0;
     right:0;
     text-align: center;
-    margin-top: 10px;
+    vertical-align: center;
+    margin-top: 15px;
     margin-right: 10px;
     width:350px;
-    height: 30px;
+    height: 40px;
     z-index:100;
 }
 
