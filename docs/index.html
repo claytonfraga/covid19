@@ -1,129 +1,137 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>COVID-19 Forecasts</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-161770534-1"></script>
     <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-gtag('config', 'UA-161770534-1');
-</script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-  </head>
-  <body>
-    <h1>Casos relatados da COVID-19<a name="projecoes"></a></h1>
-    <h2>Países com maior número de casos e Brasil<a name="brazil"></a></h2>
-    <iframe id="mundo" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-            src="crescimento_full.html"
-            width="100%" height="640">
-    </iframe>
+        gtag('js', new Date());
+        gtag('config', 'UA-161770534-1');
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
 
-    <br>
-    <h1>Projeções numéricas de casos da COVID-19<a name="projecoes"></a></h1>
-    <br>
-    <p style="text-align: justify;">
-      Os dados referem-se a casos relatados, não representam necessariamente o número de casos reais.
-    </p>
-    <h2>Brasil<a name="brazil"></a></h2>
-    <h3>Modelo Exponencial</h3>
+</head>
+<body>
+<p></p>
 
-    <iframe id="igraph" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="Brazil_exp.html"
-            width="100%" height="640">
-    </iframe>
-    <h3>Modelo Logístico</h3>
-    <iframe id="igraph2" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="Brazil_logistico.html"
-            width="100%" height="640">
-    </iframe>
-    <br>
-    <h2>Itália<a name="italy"></a></h2>
-    <h3>Modelo Exponencial</h3>
-    <iframe id="igraph3" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="Italy_exp.html"
-            width="100%" height="640">
-    </iframe>
-    <h3>Modelo Logístico</h3>
-    <iframe id="igraph4" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="Italy_logistico.html"
-            width="100%" height="640">
-    </iframe>
-    <h2>USA<a name="usa"></a></h2>
-    <h3>Modelo Exponencial</h3>
-    <iframe id="igraph5" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="United_States_exp.html"
-            width="100%" height="640">
-    </iframe>
-    <h3>Modelo Logístico</h3>
-    <iframe id="igraph6" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="United_States_logistico.html"
-            width="100%" height="640">
-    </iframe>
-    <br>
-    <h2>Espanha<a name="spain"></a></h2>
-    <h3>Modelo Exponencial</h3>
-    <iframe id="igraph7" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="Spain_exp.html"
-            width="100%" height="640">
-    </iframe>
-    <h3>Modelo Logístico</h3>
-    <iframe id="igraph8" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="Spain_logistico.html"
-            width="100%" height="640">
-    </iframe>
-    <br>
-    <h2>Crescimento semanal<a name="crescimento_semanal"></a></h2>
-    <iframe id="igraph9" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="crescimento_semanal.html"
-            width="100%" height="640">
-    </iframe>
-    <h2>Crescimento semanal (desconsiderando a Itália)<a name="crescimento_semanal"></a></h2>
-    <iframe id="igraph10" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="crescimento_semanal2.html"
-            width="100%" height="640">
-    </iframe>
-    <h2>Crescimento semanal (acima de 100 casos)<a name="crescimento_semanal"></a></h2>
-    <iframe id="igraph11" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="crescimento_semanal3.html"
-            width="100%" height="640">
-    </iframe>
-    <h2>Crescimento semanal no Brasil <a name="crescimento_semanal"></a></h2>
-    <iframe id="igraph12" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
-      src="crescimento_semanal4.html"
-            width="100%" height="640">
-    </iframe>
+<h1>Casos relatados da COVID-19<a name="projecoes"></a></h1>
+<h2>Países com maior número de casos e Brasil<a name="brazil"></a></h2>
+<iframe id="mundo" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="crescimento_full.html"
+        width="100%" height="640">
+</iframe>
 
-    <br>
-    <h2>Demais países<a name="demais_paises"></a></h2>
-    <div style="vertical-align: center">
-      <iframe id="paises" class="holds-the-iframe" scrolling="yes" style="border:none;display:block;margin-left: auto;margin-right: auto" seamless="seamless"
-              src="paises.html"
-              width="80%" height="640">
-      </iframe>
-    </div>
+<br>
+<h1>Projeções numéricas de casos da COVID-19<a name="projecoes"></a></h1>
+<br>
+<p style="text-align: justify;">
+    Os dados referem-se a casos relatados, não representam necessariamente o número de casos reais.
+</p>
+<h2>Brasil<a name="brazil"></a></h2>
+<h3>Modelo Exponencial</h3>
+
+<iframe id="igraph" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="Brazil_exp.html"
+        width="100%" height="640">
+</iframe>
+<h3>Modelo Logístico</h3>
+<iframe id="igraph2" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="Brazil_logistico.html"
+        width="100%" height="640">
+</iframe>
+<br>
+<h2>Itália<a name="italy"></a></h2>
+<h3>Modelo Exponencial</h3>
+<iframe id="igraph3" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="Italy_exp.html"
+        width="100%" height="640">
+</iframe>
+<h3>Modelo Logístico</h3>
+<iframe id="igraph4" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="Italy_logistico.html"
+        width="100%" height="640">
+</iframe>
+<h2>USA<a name="usa"></a></h2>
+<h3>Modelo Exponencial</h3>
+<iframe id="igraph5" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="United_States_exp.html"
+        width="100%" height="640">
+</iframe>
+<h3>Modelo Logístico</h3>
+<iframe id="igraph6" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="United_States_logistico.html"
+        width="100%" height="640">
+</iframe>
+<br>
+<h2>Espanha<a name="spain"></a></h2>
+<h3>Modelo Exponencial</h3>
+<iframe id="igraph7" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="Spain_exp.html"
+        width="100%" height="640">
+</iframe>
+<h3>Modelo Logístico</h3>
+<iframe id="igraph8" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="Spain_logistico.html"
+        width="100%" height="640">
+</iframe>
+<br>
+<h2>Crescimento semanal<a name="crescimento_semanal"></a></h2>
+<iframe id="igraph9" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="crescimento_semanal.html"
+        width="100%" height="640">
+</iframe>
+<h2>Crescimento semanal (desconsiderando a Itália)<a name="crescimento_semanal"></a></h2>
+<iframe id="igraph10" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="crescimento_semanal2.html"
+        width="100%" height="640">
+</iframe>
+<h2>Crescimento semanal (acima de 100 casos)<a name="crescimento_semanal"></a></h2>
+<iframe id="igraph11" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="crescimento_semanal3.html"
+        width="100%" height="640">
+</iframe>
+<h2>Crescimento semanal no Brasil <a name="crescimento_semanal"></a></h2>
+<iframe id="igraph12" class="holds-the-iframe" scrolling="no" style="border:none;" seamless="seamless"
+        src="crescimento_semanal4.html"
+        width="100%" height="640">
+</iframe>
+
+<br>
+<h2>Demais países<a name="demais_paises"></a></h2>
+<div style="vertical-align: center">
+    <iframe id="paises" class="holds-the-iframe" scrolling="yes"
+            style="border:none;display:block;margin-left: auto;margin-right: auto" seamless="seamless"
+            src="paises.html"
+            width="80%" height="640">
+    </iframe>
+</div>
 
 
-
-  <br/>
-    <p><b>Elaborado por</b>: <a heaf="mailto:clayton.fraga@ufes.br">Prof. Dr. Clayton Vieira Fraga Filho</a>
-      <br>Departamento de Computação
-      <br>Centro de Ciências Exatas, Naturais e da Saúde | CCENS
-      <br>Universidade Federal do Espírito Santo | UFES </p>
-    <h3>Fontes:</h3>
-    <ol>
-      <li>RITCHIE, Hannah. <b>Coronavirus Source Data</b>. 2020. Disponível em:
+<br/>
+<p><b>Elaborado por</b>: <a heaf="mailto:clayton.fraga@ufes.br">Prof. Dr. Clayton Vieira Fraga Filho</a>
+    <br>Departamento de Computação
+    <br>Centro de Ciências Exatas, Naturais e da Saúde | CCENS
+    <br>Universidade Federal do Espírito Santo | UFES </p>
+<h3>Fontes:</h3>
+<ol>
+    <li>RITCHIE, Hannah. <b>European Centre for Disease Prevention and Control (ECDC) - Coronavirus Source Data</b>. 2020. Disponível em:
         <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank"
-          style="color: #666666;">https://ourworldindata.org/coronavirus-source-data</a>.
-        Acesso em: 10 mar. 2020.</li>
-      <li>WORLDOMETER. <b>COVID-19 CORONAVIRUS PANDEMIC</b>. 2020. Disponível em:<a href="em:%20https://www.worldometers.info/coronavirus/"
-          target="_blank" style="color: #666666;">
-          https://www.worldometers.info/coronavirus/</a>.
-        Acesso em: 20 mar. 2020.</li>
-    </ol>
-  </body>
+           style="color: #666666;">https://ourworldindata.org/coronavirus-source-data</a>.
+        Acesso em: 10 mar. 2020.
+    </li>
+    <li>WORLDOMETER. <b>COVID-19 CORONAVIRUS PANDEMIC</b>. 2020. Disponível em:<a
+            href="https://www.worldometers.info/coronavirus/"
+            target="_blank" style="color: #666666;">
+        https://www.worldometers.info/coronavirus/</a>.
+        Acesso em: 20 mar. 2020.
+    </li>
+</ol>
+</body>
 </html>
