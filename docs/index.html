@@ -18,33 +18,18 @@
 
         gtag('js', new Date());
         gtag('config', 'UA-161770534-1');
-
-        function load() {
-            alert("ola");
-            let file = new XMLHttpRequest();
-            let text = "";
-            file.open("GET", "https://claytonfraga.github.io/covid19/hora.txt", true);
-            file.onreadystatechange = function() {
-                if (file.readyState === 4) {  // Makes sure the document is ready to parse
-                    if (file.status === 200) {  // Makes sure it's found the file
-                        text = file.responseText;
-                        alert(text);
-                        document.getElementById("hatualizacao").innerHTML = text;
-                    }
-                }
-            }
-        }
-
-        window.onLoad = load();
-
-
     </script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
 
 </head>
 <body>
 <p></p>
-<div id="hatualizacao" class='fixedElement'>
+<div class='fixedElement'>
+    <iframe id="atualizacao"   scrolling="no" style="border:none;vertical-align: center;"
+            src="horaAtualizacao.html"
+            width="450" height="45">
+    </iframe>
+
 </div>
 <h1>Apresenta&ccedil;&atilde;o<a name="apresentacao"></a></h1>
 <p><span></span></p>
