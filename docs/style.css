@@ -82,11 +82,11 @@ td, th {
 
 
 body, html{
-    margin:0;
+    margin:10px;
     padding:0;
 }
 .main{
-    max-width:1200px;
+    max-width:2000px;
     margin:0 auto;
     overflow:hidden;
     background:white;
@@ -99,11 +99,7 @@ body, html{
 .content-inner{
     margin-right:210px;
 }
-.sidebar{
-    background:red;
-    float:right;
-    width:200px;
-}
+
 .menu{
     width:100%;
     background:blue;
