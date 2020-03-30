@@ -133,41 +133,6 @@ body, html {
     text-align: center;
 }
 
-@media screen and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
-    .sidebar, .content-inner, .content {
-        float: none;
-        width: 100%;
-        margin-right: 0;
-    }
-}
-
-[style*="--aspect-ratio"] > :first-child {
-    width: 100%;
-}
-
-[style*="--aspect-ratio"] > img {
-    height: auto;
-}
-
-@supports (--custom:property) {
-    [style*="--aspect-ratio"] {
-        position: relative;
-    }
-
-    [style*="--aspect-ratio"]::before {
-        content: "";
-        display: block;
-        padding-bottom: calc(100% / (var(--aspect-ratio)));
-    }
-
-    [style*="--aspect-ratio"] > :first-child {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-    }
-}
-
 /* Media Queries */
 /* Smartphones, small screens (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
