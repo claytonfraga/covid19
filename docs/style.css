@@ -1,6 +1,8 @@
 
 .holds-the-iframe {
     background: url(loading.gif) center center no-repeat;
+    width: 100%;
+    height: 700px;
 }
 
 .ex3 {
