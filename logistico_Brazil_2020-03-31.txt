@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-03-31 21:07:15
+Gerado em:  2020-03-31 22:51:31
 RMSE(%):  17.1 , BIAS(%): 1.67
 
 Taxa de Mortalidade 3.52 %
@@ -18,7 +18,7 @@ Taxa de Mortalidade 3.52 %
 89   Brazil 2020-03-27     2835            3419       4003               120              3417                114        0         0
 90   Brazil 2020-03-28     3251            3920       4589               138              3904                136        0         0
 91   Brazil 2020-03-29     3666            4421       5176               155              4256                159        0         0
-92   Brazil 2020-03-30     4068            4905       5742               172              4579                 NA        0         0
+92   Brazil 2020-03-30     4068            4905       5742               172              4579                201        0         0
 93   Brazil 2020-03-31     4443            5357       6271               188              5717                201        0         0
 94   Brazil 2020-04-01     4783            5767       6751               203                NA                 NA        0         0
 95   Brazil 2020-04-02     5084            6130       7176               216                NA                 NA        0         0
@@ -28,7 +28,7 @@ Taxa de Mortalidade 3.52 %
 99   Brazil 2020-04-06     5891            7104       8317               250                NA                 NA        0         0
 100  Brazil 2020-04-07     6011            7248       8485               255                NA                 NA        0         0
 
-Total de casos no mundo:  856917
+Total de casos no mundo:  858371
 
 Estimados a partir dos dados da OMS:
    day       date    x xest
@@ -220,7 +220,7 @@ Todos os dados gerados
 89   Brazil 2020-03-27     2835            3419       4003               120              3417                114        0         0
 90   Brazil 2020-03-28     3251            3920       4589               138              3904                136        0         0
 91   Brazil 2020-03-29     3666            4421       5176               155              4256                159        0         0
-92   Brazil 2020-03-30     4068            4905       5742               172              4579                 NA        0         0
+92   Brazil 2020-03-30     4068            4905       5742               172              4579                201        0         0
 93   Brazil 2020-03-31     4443            5357       6271               188              5717                201        0         0
 94   Brazil 2020-04-01     4783            5767       6751               203                NA                 NA        0         0
 95   Brazil 2020-04-02     5084            6130       7176               216                NA                 NA        0         0
