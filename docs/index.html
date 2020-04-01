@@ -1,312 +1,566 @@
-<!DOCTYPE html>
-<html>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
-    <meta http-equiv="Pragma" content="no-cache"/>
-    <meta http-equiv="Expires" content="0"/>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Monitoramento de casos relatados da COVID-19</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-161770534-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-        gtag('config', 'UA-161770534-1');
-
-        $('.holds-the-iframe').css('height', $(window).height()+'px');
-
-    </script>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+  <title>Monitoramento de casos relatados da COVID-19</title>
+  <meta
+    description="Este site tem como objetivo apresentar dados resumidos de casos relatados da COVID-19 e projeções de novos casos para 7 dias utilizando modelos estatísticos.">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+  <!-- Google online fonts -->
+  <link href="//fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&display=swap"
+    rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-161770534-1"></script>
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style-starter.css">
 </head>
+
 <body>
-<div class="main">
-    <p></p>
-    <div class='fixedElement'>
-        <iframe id="atualizacao" scrolling="no" style="border:none;vertical-align: center;"
-                src="horaAtualizacao.html"
-                width="450" height="45">
-        </iframe>
+  <section class="w3l-header">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><span id="logo" class="fas fa-virus"></span>COVID<label
+            class="logo-view">19</label></a>
+        <!-- if logo is image enable this   
+    <a class="navbar-brand" href="#index.html">
+        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+    </a> -->
+       <!--  <div class="header-right d-flex align-items-center">
+          <a href="#aprensentacao" class="btn btn-outline-dark d-none d-md-block btn-outline-style mr-4">Contact Us</a>
+          <section class="w3l-menu">
+            <div class="menu-btn">
+              <span class="top"></span>
+              <span class="mid"></span>
+              <span class="bot"></span>
+            </div>
+            <div id="nav">
+              <ul class="nav-inner">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="">About</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div> -->
+      </div>
+    </nav>
+  </section>
 
+  <!-- index-block1 -->
+  <div class="w3l-index-block1" id="apresentacao">
+    <div class="content py-5">
+      <div class="container py-lg-4">
+        <div class="row align-items-center">
+          <div class="col-lg-7 content-left">
+            <h3>Monitoramento de <br />casos relatados <br />da COVID-19</h3>
+            <p class="mt-3 mb-lg-5 mb-4">Este site tem como objetivo apresentar dados resumidos de casos relatados da
+              COVID-19 e <b>proje&ccedil;&otilde;es</b> de novos casos <b>para 7 dias</b> utilizando modelos
+              estat&iacute;sticos.
+              Esperamos que seja útil para interesses diversos.</p>
+            <!-- <a href="about.html" class="btn btn-primary btn-style">Get Started</a> -->
+          </div>
+          <div class="col-lg-5 content-photo mt-lg-0 mt-5">
+            <img src="assets/svg/coronavirus.svg" class="img-fluid" alt="main image">
+            <!-- <img src="assets/images/main.jpg" class="img-fluid" alt="main image"> -->
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
     </div>
-    <h1>Apresenta&ccedil;&atilde;o<a name="apresentacao"></a></h1>
-    <p><span></span></p>
-    <p><span>Este site tem como objetivo apresentar dados resumidos de casos relatados da COVID-19 e proje&ccedil;&otilde;es de novos casos para 7 dias utilizando modelos estat&iacute;sticos.
-Espero que seja útil para interesses diversos.</span>
-    </p>
-    <p><span>Os dados s&atilde;o obtidos e processados de duas fontes:</span></p>
-    <ul>
-        <li><span>Dados disponibilizados pelo</span><span class="c1">&nbsp;European Centre for Disease Prevention and Control (ECDC)</span><span
-        >&nbsp;s&atilde;o de casos relatados at&eacute; o dia anterior (RICHIE, 2020). &nbsp;</span>
-        </li>
-        <li>
-            <span>Outra fonte de dados utilizadas, &eacute; o </span><span>Worldometer - Coronavirus</span><span> que permite ao p&uacute;blico relatar casos da doen&ccedil;a, informando o pa&iacute;s, o n&uacute;mero de casos e o link para o site de origem, para checagem da equipe (WORLDOMETER, 2020).</span>
-        </li>
-    </ul>
-    <p><span></span></p>
-    <p><span></span></p>
-    <h2>Frequência de atualiza&ccedil;&atilde;o<a name="procedimento"></a></h2>
-    <p><span></span></p>
-    <p><span>Após a atualiza&ccedil;&atilde;o dos dados da ECDC que ocorre geralmente <b>até o meio dia (horário de Brasília)</b>, os dados deste site passam a ser atualizados a cada trinta minutos, exceto da sess&atilde;o "Demais países", atualizada uma vez por dia,
-    salvo quando houver indisponibilidade de algum dos servi&ccedil;os e computadores utilizados no processamento e distribui&ccedil;&atilde;o dos conteúdos.</span>
-    </p>
+  </div>
+  <!-- //index-block1 -->
+  <section class="w3l-index3">
+    <div class="midd-w3 py-5">
+      <div class="container py-xl-5 py-lg-3">
+        <div class="row">
+          <div class="col-lg-6  mt-lg-0 mt-5 about-right-faq">
+            <h2 class="text-da">Frequência de atualiza&ccedil;&atilde;o</h3>
+              <p class="mt-3 paraf" color="#333">
+                Após a atualiza&ccedil;&atilde;o dos dados da ECDC
+                que ocorre geralmente <b>até o meio dia (horário de Brasília)</b>,
+                os dados deste site passam a ser atualizados a cada trinta minutos, exceto da sess&atilde;o "Demais
+                países", atualizada uma vez por dia,
+                salvo quando houver indisponibilidade de algum dos servi&ccedil;os e computadores utilizados no
+                processamento e distribui&ccedil;&atilde;o dos conteúdos</p>
+          </div>
+          <div class="col-lg-6 mt-lg-0 mt-5 about-right-faq">
+            <h2 class="text-da">Fonte dos dados</h3>
+              <p class="mt-3 paraf">Os dados s&atilde;o obtidos e processados de duas fontes:</p>
+              <ul class="w3l-right-book mt-4 text-justify">
+                <li class="presentation"><span color="#007bff" class="fa fa-check" aria-hidden="true"></span> Dados
+                  disponibilizados
+                  pelo European Center
+                  for
+                  Disease Prevention
+                  and Control (ECDC) &nbsp;s&atilde;o de casos relatados at&eacute; o dia anterior (RICHIE,
+                  2020). &nbsp;</li>
+                <li class="presentation"><span color="#007bff" class="fa fa-check" aria-hidden="true"></span>
+                  Worldometer - Coronavirus
+                  que permite ao p&uacute;blico relatar casos da doen&ccedil;a, informando o pa&iacute;s, o
+                  n&uacute;mero de casos e o link para o site de origem, para checagem da equipe (WORLDOMETER,
+                  2020).</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="w3l-index5" id="about">
+    <div class="new-block py-5">
+      <div class="container py-lg-5">
+        <div class="middle-section text-justify">
+          <div class="section-width">
+            <h2 class="text-center">Procedimento adotado</h2>
+            <p class="mt-5">De posse dos dados provenientes das duas fontes, s&atilde;o realizados procedimento de
+              tratamento com o
+              objetivo de realizar a extra&ccedil;&atilde;o de dados das fontes, a adequa&ccedil;&atilde;o de
+              formatos, a elimina&ccedil;&atilde;o de eventuais erros de duplicidade, dentre outras. Neste ponto temos
+              um conjunto de dados unificado dos casos relatados da COVID-19, deste o in&iacute;cio do surto
+              at&eacute; a data atual. Importante salientar que nenhum tipo de altera&ccedil;&atilde;o num&eacute;rica
+              &eacute; realizada, e a responsabilidade pelo n&uacute;mero de casos relatados &eacute; das fontes
+              consultadas.
+            </p>
+            <p>Em seguida s&atilde;o realizados ajustes de dois modelos de regress&atilde;o: um que captura a
+              tend&ecirc;ncia de crescimento exponencial, outro log&iacute;stico, que leva em
+              considera&ccedil;&atilde;o o crescimento do n&uacute;mero de casos, mas permite a modelagem da
+              satura&ccedil;&atilde;o da curva.
+            </p>
+            <h6 class="mt-4 text-justify">A escolha dos modelos baseia-se em duas hip&oacute;teses:</h6>
+            <ol class="c4 lst-kix_iqvofax7u2k4-0 start" start="1">
+              <li><b>O exponencial:</b> cuja expectativa &eacute; capturar a tend&ecirc;ncia de crescimento do
+                n&uacute;mero
+                de casos, considerando uma situa&ccedil;&atilde;o extrema, por exemplo, em um cen&aacute;rio no qual o
+                v&iacute;rus se espalha com mais velocidade
+              </li>
+              <li><b>O log&iacute;stico:</b> para o qual se espera capturar o comportamento de crescimento menos
+                acelerado,
+                podendo chegar a uma satura&ccedil;&atilde;o. Este modelo poderia explicar um cen&aacute;rio no qual
+                medidas de higiene, isolamento social, e demais cuidados produzam a desacelera&ccedil;&atilde;o da
+                transmiss&atilde;o, e como consequ&ecirc;ncia a redu&ccedil;&atilde;o do n&uacute;mero de casos
+                relatados.
+              </li>
+            </ol>
+            <p>N&atilde;o temos a pretens&atilde;o de validar as &nbsp;hip&oacute;teses apresentadas. </p>
+            </p>
+            <p class="mt-4">Por fim, s&atilde;o realizadas proje&ccedil;&otilde;es do n&uacute;mero de casos da COVID-19
+              para os
+              pr&oacute;ximos 7 dias a considerar a data atual, utilizando as equa&ccedil;&otilde;es ajustadas para
+              cada modelo, com o respectivo erro associado ao ajuste da equa&ccedil;&atilde;o, apresentado de forma
+              gr&aacute;fica.</p>
 
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <h2>Procedimento adotado<a name="procedimento"></a></h2>
-    <p><span></span></p>
-    <p><span>De posse dos dados provenientes das duas fontes, s&atilde;o realizados procedimento de tratamento com o objetivo de realizar a extra&ccedil;&atilde;o de dados das fontes, a adequa&ccedil;&atilde;o de formatos, a elimina&ccedil;&atilde;o de eventuais erros de duplicidade, dentre outras. Neste ponto temos um conjunto de dados unificado dos casos relatados da COVID-19, deste o in&iacute;cio do surto at&eacute; a data atual. Importante salientar que nenhum tipo de altera&ccedil;&atilde;o num&eacute;rica &eacute; realizada, e a responsabilidade pelo n&uacute;mero de casos relatados &eacute; das fontes consultadas.</span>
-    </p>
-    <p><span>Em seguida s&atilde;o realizados ajustes de dois modelos de regress&atilde;o: um que captura a tend&ecirc;ncia de crescimento exponencial, outro log&iacute;stico, que leva em considera&ccedil;&atilde;o o crescimento do n&uacute;mero de casos, mas permite a modelagem da satura&ccedil;&atilde;o da curva.</span>
-    </p>
-    <p><span>A escolha dos modelos baseia-se em duas hip&oacute;teses:</span></p>
-    <ol class="c4 lst-kix_iqvofax7u2k4-0 start" start="1">
-        <li><span>O exponencial: cuja expectativa &eacute; capturar a tend&ecirc;ncia de crescimento do n&uacute;mero de casos, considerando uma situa&ccedil;&atilde;o extrema, por exemplo, em um cen&aacute;rio no qual o v&iacute;rus se espalha com mais velocidade</span>
-        </li>
-        <li><span>O log&iacute;stico: para o qual se espera capturar o comportamento de crescimento menos acelerado, podendo chegar a uma satura&ccedil;&atilde;o. Este modelo poderia explicar um cen&aacute;rio no qual medidas de higiene, isolamento social, e demais cuidados produzam a desacelera&ccedil;&atilde;o da transmiss&atilde;o, e como consequ&ecirc;ncia a redu&ccedil;&atilde;o do n&uacute;mero de casos relatados.</span>
-        </li>
-    </ol>
-    <p><span
-    >N&atilde;o temos a pretens&atilde;o de validar as &nbsp;hip&oacute;teses apresentadas. </span>
-    </p>
-    <p><span>Por fim, s&atilde;o realizadas proje&ccedil;&otilde;es do n&uacute;mero de casos da COVID-19 para os pr&oacute;ximos 7 dias a considerar a data atual, utilizando as equa&ccedil;&otilde;es ajustadas para cada modelo, com o respectivo erro associado ao ajuste da equa&ccedil;&atilde;o, apresentado de forma gr&aacute;fica.</span>
-    </p>
-    <h2>Reposit&oacute;rio de dados (datasets) da COVID19<a name="repositorio"></a></h2>
-    <p>&nbsp;Todos os dados processados e gerados est&atilde;o dispon&iacute;veis para downalod no
-        reposit&oacute;rio p&uacute;blico (Github) neste <a
-                href="https://github.com/claytonfraga/covid19" target="_blank"
-                rel="noopener">link</a>.
-    </p>
-    <p>S&atilde;o 2 tipos de dados:</p>
-    <ul>
-        <li>Dados em formato CSV:
-            <ol>
-                <li>Dados atualizados com informa&ccedil;oes da ECDC e do Worldometer</li>
-                <li>Dados com as proje&ccedil;&otilde;es para os pr&oacute;ximos 7 dias para todos
+  <section class="w3l-index3">
+    <div class="midd-w3 py-5">
+      <div class="container py-xl-5 py-lg-3">
+        <div class="row">
+          <div class="col-lg-6  mt-lg-0 mt-5 about-right-faq">
+            <h2 class="text-da">Reposit&oacute;rio de dados (datasets) da COVID19</h2>
+            <p class="mt-3 paraf" color="#333">
+              &nbsp;Todos os dados processados e gerados est&atilde;o dispon&iacute;veis para downalod no
+              reposit&oacute;rio p&uacute;blico (Github).</p>
+            <a href="https://github.com/claytonfraga/covid19" class="btn btn-outline-secondary mt-4">
+              <i class="fab fa-github"></i> Abrir Github</a>
+
+          </div>
+          <div class="col-lg-6 mt-lg-0 mt-5 about-right-faq">
+            <h2 class="text-da">S&atilde;o 2 tipos de dados:</h2>
+            <ul class="w3l-right-book mt-4 text-justify">
+              <li class="presentation"><span color="#007bff" class="fa fa-check" aria-hidden="true"></span>
+                Dados em
+                formato CSV:
+                <ol>
+                  <li>1 - Dados atualizados com informa&ccedil;oes da ECDC e do Worldometer</li>
+                  <li>Dados com as proje&ccedil;&otilde;es para os pr&oacute;ximos 7 dias para todos
                     os
                     países com casos relatados para os dois modelos adotados
-                </li>
-                <li>Arquivos com resumo das proje&ccedil;&otilde;es e outras estat&iacute;sticas de
+                  </li>
+                  <li>2 - Arquivos com resumo das proje&ccedil;&otilde;es e outras estat&iacute;sticas de
                     alguns pa&iacute;ses
-                </li>
-            </ol>
-        </li>
-        <li>Gr&aacute;ficos est&aacute;ticos:
-            <ol>
-                <li>Gr&aacute;ficos est&aacute;ticos para cada dia de monitoramento em 2 formatos:
+                  </li>
+                </ol>
+              </li>
+              <li class="presentation"><span color="#007bff" class="fa fa-check" aria-hidden="true"></span>
+                Gr&aacute;ficos est&aacute;ticos:
+                <ol>
+                  <li>Gr&aacute;ficos est&aacute;ticos para cada dia de monitoramento em 2 formatos:
                     JPEG
                     e BMP.
-                </li>
-            </ol>
-        </li>
-    </ul>
-    <p>O acesso &eacute; p&uacute;blico, espera-se que a comunidade possa contribuir e utiliz&aacute;-los
-        de acordo com suas necessidades.</p>
-    <br>
-    <h1>Projeções numéricas de casos da COVID-19<a name="projecoes"></a></h1>
-    <br>
-    <p style="text-align: justify;">
-        Os dados referem-se a casos relatados, não representam necessariamente o número de casos
-        reais.
-    </p>
-    <h2>Brasil<a name="brazil"></a></h2>
-    <h3>Modelo Exponencial</h3>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="igraph" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="Brazil_exp.html"
-        >
-        </iframe>
-    </div>
-    <h3>Modelo Logístico</h3>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="igraph2" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="Brazil_logistico.html"
-                width="95%">
-        </iframe>
-    </div>
-    <br>
-    <h2>Itália<a name="italy"></a></h2>
-    <h3>Modelo Exponencial</h3>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="igraph3" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="Italy_exp.html"
-                width="95%">
-        </iframe>
-    </div>
-    <h3>Modelo Logístico</h3>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="igraph4" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="Italy_logistico.html"
-                width="95%">
-        </iframe>
-    </div>
-    <h2>Estados Unidos<a name="usa"></a></h2>
-    <h3>Modelo Exponencial</h3>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="igraph5" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="United_States_exp.html"
-                width="95%">
-        </iframe>
-    </div>
-    <h3>Modelo Logístico</h3>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="igraph6" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="United_States_logistico.html"
-                width="95%">
-        </iframe>
-    </div>
-    <br>
-    <h2>Espanha<a name="spain"></a></h2>
-    <h3>Modelo Exponencial</h3>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="igraph7" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="Spain_exp.html"
-                width="95%">
-        </iframe>
-    </div>
-    <h3>Modelo Logístico</h3>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="igraph8" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="Spain_logistico.html"
-                width="95%">
-        </iframe>
-    </div>
-    <br>
-    <h2>Crescimento semanal<a name="crescimento_semanal"></a></h2>
-    <div style="--aspect-ratio: 16/9;">
+                  </li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="w3l-index4">
+    <div class="section-four gotocontact py-5">
+      <div class="container py-xl-5 py-lg-3">
+        <div class="row align-items-center">
+          <div class="col-xl-6  col-lg-6">
+            <div class="heading white">
+              <h3>Projeções numéricas de casos da COVID-19</h3>
+            </div>
+          </div>
+          <div class="offset-xl-1 offset-0 col-xl-4 col-lg-6 text-lg-justify mt-5 mt-lg-0">
+            <h4 class="mt-4">Os dados referem-se a casos relatados, não representam necessariamente o número de casos
+              reais.</h4>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="w3l-index7">
+    <div class="new-block py-5">
+      <div class="container py-lg-5">
+        <div class="middle-section text-justify">
+          <h1>Brasil<a name="brazil"></a> - Modelo Exponencial</h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="igraph" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/Brazil_exp.html">
+            </iframe>
+          </div>
+          <h1>Brasil<a name="brazil"></a> - Modelo Logistico</h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="igraph2" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/Brazil_logistico.html" width="100%">
+            </iframe>
+          </div>
+          <br>
+          <h1>Itália<a name="italy"></a> - Modelo Exponencial</h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="igraph3" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/Italy_exp.html" width="100%">
+            </iframe>
+          </div>
+          <h1>Itália<a name="italy"></a> - Modelo Logistico</h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="igraph4" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/Italy_logistico.html" width="100%">
+            </iframe>
+          </div>
+          <h1>Estados Unidos<a name="italy"></a> - Modelo Exponencial</h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="igraph5" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/United_States_exp.html" width="100%">
+            </iframe>
+          </div>
+          <h1>Estados Unidos<a name="italy"></a> - Modelo Logistico</h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="igraph6" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/United_States_logistico.html" width="100%">
+            </iframe>
+          </div>
+          <br>
+          <h1>Espanha<a name="spain"></a> - Modelo Exponencial</h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="igraph7" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/Spain_exp.html" width="100%">
+            </iframe>
+          </div>
+          <h1>Espanha<a name="spain"></a> - Modelo Logístico</h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="igraph8" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/Spain_logistico.html" width="100%">
+            </iframe>
+          </div>
+          <br>
+          <h1>Crescimento semanal<a name="crescimento_semanal"></a></h1>
+          <div style="--aspect-ratio: 16/9;">
 
-        <iframe id="igraph9" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="crescimento_semanal.html"
-                width="95%">
-        </iframe>
-    </div>
-    <h2>Número de casos semanais (acima de 100 casos)<a name="crescimento_semanal"></a></h2>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="igraph111" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="crescimento_semanal3.html"
-                width="95%">
-        </iframe>
-    </div>
-    <p>O gráfico abaixo apresenta o comportamento temporal do número de casos acumuladas ao longo do
-        tempo, para alguns países. A semana 0 (zero) corresponde ao dia em que o país teve mais de
-        100 casos.</p>
-    <div style="--aspect-ratio: 16/9;">
+            <iframe id="igraph9" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/crescimento_semanal.html" width="100%">
+            </iframe>
+          </div>
+          <h1>Número de casos semanais (acima de 100 casos)<a name="crescimento_semanal"></a></h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="igraph111" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/crescimento_semanal3.html" width="100%">
+            </iframe>
+          </div>
+          <p>O gráfico abaixo apresenta o comportamento temporal do número de casos acumuladas ao longo do
+            tempo, para alguns países. A semana 0 (zero) corresponde ao dia em que o país teve mais de
+            100 casos.</p>
+          <div style="--aspect-ratio: 16/9;">
 
-        <iframe id="igraph11" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="crescimento_semanal_semanazero.html"
-                width="95%">
-        </iframe>
-    </div>
+            <iframe id="igraph11" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/crescimento_semanal_semanazero.html" width="100%">
+            </iframe>
+          </div>
 
-    <h2>Crescimento semanal no Brasil <a name="crescimento_semanal"></a></h2>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="igraph12" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="crescimento_semanal4.html"
-                width="95%">
-        </iframe>
+          <h1>Crescimento semanal no Brasil <a name="crescimento_semanal"></a></h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="igraph12" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/crescimento_semanal4.html" width="100%">
+            </iframe>
+          </div>
+          <br>
+          <h1>Casos relatados da COVID-19<a name="relatos"></a></h1>
+          <h2>Países com maior número de casos e Brasil<a name="brazil"></a></h2>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="mundo" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/crescimento_full.html" width="100%">
+            </iframe>
+          </div>
+          <br />
+          <h1>Casos e mortes no mundo por semana <a name="mundo_semanal"></a></h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="mundosemanal" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/casos_mundo_semanal.html" width="100%">
+            </iframe>
+          </div>
+          <br>
+          <h1>Mortes relatadas pela COVID-19<a name="mortes"></a></h1>
+          <h2>Total de mortes relatadas (pa&iacute;ses com mais mortos)<a name="totalMortes"></a></h2>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="totalMortes" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/mortes_full.html" width="100%">
+            </iframe>
+          </div>
+          <br />
+          <p>O gráfico abaixo apresenta o comportamento temporal do número de mortes acumuladas ao longo
+            do tempo, para alguns países. A semana 0 (zero) corresponde ao dia em que o país teve mais
+            de 100 mortes acumuladas.</p>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="totalMortesSemanais" class="holds-the-iframe" scrolling="no" seamless="seamless" frameBorder="0"
+              src="https://claytonfraga.github.io/covid19/mortes_semanal_semanazero.html" width="100%">
+            </iframe>
+          </div>
+          <br />
+          <p>Já o gráfico seguinte apresenta o comportamento temporal do número de mortes acumuladas
+            ao longo do tempo, considerando a semana 0 (zero) correspondente ao dia em que o país
+            teve mais de 10 mortes acumuladas.</p>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="totalMortesSemanais10" class="holds-the-iframe" scrolling="no" frameBorder="0"
+              seamless="seamless" src="https://claytonfraga.github.io/covid19/mortes_semanal_semanazero1.html"
+              width="100%">
+            </iframe>
+          </div>
+          <br>
+          <h1>Demais países<a name="demais_paises"></a></h1>
+          <div style="--aspect-ratio: 16/9;">
+            <iframe id="paises" class="holds-the-iframe" frameBorder="0" seamless="seamless"
+              src="https://claytonfraga.github.io/covid19/paises.html" width="100%" height="500">
+            </iframe>
+          </div>
+          <p>..role com o mouse pare ver mais</p>
+        </div>
+      </div>
     </div>
-    <br>
-    <h1>Casos relatados da COVID-19<a name="relatos"></a></h1>
-    <h2>Países com maior número de casos e Brasil<a name="brazil"></a></h2>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="mundo" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="crescimento_full.html"
-                width="95%">
-        </iframe>
-    </div>
-    <br/>
-    <h2>Casos e mortes no mundo por semana <a name="mundo_semanal"></a></h2>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="mundosemanal" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="casos_mundo_semanal.html"
-                width="95%">
-        </iframe>
-    </div>
-    <br>
-    <h1>Mortes relatadas pela COVID-19<a name="mortes"></a></h1>
-    <h2>Total de mortes relatadas (pa&iacute;ses com mais mortos)<a name="totalMortes"></a></h2>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="totalMortes" class="holds-the-iframe" scrolling="no" seamless="seamless"
-                frameBorder="0"
-                src="mortes_full.html"
-                width="95%">
-        </iframe>
-    </div>
-    <br/>
-    <p>O gráfico abaixo apresenta o comportamento temporal do número de mortes acumuladas ao longo
-        do tempo, para alguns países. A semana 0 (zero) corresponde ao dia em que o país teve mais
-        de 100 mortes acumuladas.</p>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="totalMortesSemanais" class="holds-the-iframe" scrolling="no"
-                seamless="seamless" frameBorder="0"
-                src="mortes_semanal_semanazero.html"
-                width="95%">
-        </iframe>
-    </div>
-    <br/>
-    <p>Já o gráfico seguinte apresenta o comportamento temporal do número de mortes acumuladas
-        ao longo do tempo, considerando a semana 0 (zero) correspondente ao dia em que o país
-        teve mais de 10 mortes acumuladas.</p>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="totalMortesSemanais10" class="holds-the-iframe" scrolling="no" frameBorder="0"
-                seamless="seamless"
-                src="mortes_semanal_semanazero1.html"
-                width="95%">
-        </iframe>
-    </div>
-    <br>
-    <h2>Demais países<a name="demais_paises"></a></h2>
-    <div style="--aspect-ratio: 16/9;">
-        <iframe id="paises" class=o
+  </section>
 
-                frameBorder="0"
-                seamless="seamless"
-                src="paises.html"
-                width="100%" height="600px">
-        </iframe>
+
+
+  <!-- footer -->
+  <footer class="w3l-footer">
+    <div class="footer-29 py-5">
+      <div class="container pb-lg-3">
+        <h6 class="footer-title-29 text-center">Equipe de desenvolvimento</h6>
+        <div class="row footer-top-29">
+          <div class="col-md-6 footer-list-29 footer-1 mt-md-4">
+            <a href="https://www.linkedin.com/in/claytonfraga/" target="blank">
+              <b>Prof. Dr. Clayton Vieira Fraga Filho</b>
+            </a>
+            <p>Departamento de Computação</p>
+            <p>Centro de Ciências Exatas, Naturais e da Saúde | CCENS
+              Universidade Federal do Espírito Santo | UFES</p>
+            <br />
+            <a href="https://www.linkedin.com/in/daviseares/" target="blank">
+              <b>Davi Borges Seares</b>
+            </a>
+            <p>Graduando do curso de Sistemas de Informação</p>
+            <p>Centro de Ciências Exatas, Naturais e da Saúde | CCENS
+              Universidade Federal do Espírito Santo | UFES</p>
+
+          </div>
+          <div class="col-md-6 footer-list-29 footer-4 mt-md-4 mt-5">
+            <a href="https://www.linkedin.com/in/guilherme-gdm/" target="blank">
+              <b>Guilherme Dias</b>
+            </a>
+            <p>Graduando do curso de Sistemas de Informação</p>
+            <p>Centro de Ciências Exatas, Naturais e da Saúde | CCENS
+              Universidade Federal do Espírito Santo | UFES</p>
+            <br />
+            <a href="https://www.linkedin.com/in/matheuzsr/" target="blank">
+              <b>Matheus da Silva Rocha</b>
+            </a>
+            <p>Graduando do curso de Ciência da Computação</p>
+            <p>Centro de Ciências Exatas, Naturais e da Saúde | CCENS
+              Universidade Federal do Espírito Santo | UFES</p>
+          </div>
+        </div>
+        <div class="row bottom-copies">
+          <p class="copy-footer-29 col-lg-7 text-lg-left text-center">© 2020 Worksmart. All rights reserved | Design by
+            <a href="https://w3layouts.com/">W3Layouts</a></p>
+          <!-- <ul class="list-btm-29 col-lg-5 text-lg-right text-center">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul> -->
+        </div>
+      </div>
     </div>
-    <br/>
-    <p><b>Elaborado por</b>: <a heaf="mailto:clayton.fraga@ufes.br">Prof. Dr. Clayton Vieira
-        Fraga
-        Filho</a>
-        <br>Departamento de Computação
-        <br>Centro de Ciências Exatas, Naturais e da Saúde | CCENS
-        <br>Universidade Federal do Espírito Santo | UFES </p>
-    <h3>Fontes:</h3>
-    <ol>
-        <li>RITCHIE, Hannah. <b>European Centre for Disease Prevention and Control (ECDC) -
-            Coronavirus
-            Source Data</b>.
-            2020. Disponível em:
-            <a href="https://ourworldindata.org/coronavirus-source-data" target="_blank"
-               style="color: #666666;">https://ourworldindata.org/coronavirus-source-data</a>.
-            Acesso em: 10 mar. 2020.
-        </li>
-        <li>WORLDOMETER. <b>COVID-19 CORONAVIRUS PANDEMIC</b>. 2020. Disponível em:<a
-                href="https://www.worldometers.info/coronavirus/"
-                target="_blank" style="color: #666666;">
-            https://www.worldometers.info/coronavirus/</a>.
-            Acesso em: 20 mar. 2020.
-        </li>
-    </ol>
-</div>
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
+      <span class="fa fa-angle-up"></span>
+    </button>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- /move top -->
+  </footer>
+  <!-- // footer -->
+
+  <!-- jQuery -->
+  <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+  <!-- Bootstrap js -->
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!-- disable body scroll which navbar is in active -->
+
+
+
+  <script src="assets/js/owl.carousel.js"></script>
+  <!-- script for teams1-->
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          667: {
+            items: 2,
+            nav: true,
+            margin: 20
+          },
+          1000: {
+            items: 4,
+            nav: true,
+            loop: true,
+            margin: 25
+          }
+        }
+      })
+    })
+  </script>
+  <!-- //script for teams1-->
+
+  <script>
+    $(document).ready(function () {
+
+      var $menuBtn = $('.menu-btn');
+      var $nav = $('#nav');
+      var $stylebox = $('#style-box');
+      var $styleli = $stylebox.find('li');
+
+      $menuBtn.on('click', function () {
+        var $this = $(this);
+        var styles = $stylebox.data('styles');
+        $this.toggleClass("active");
+        $this.next('#nav').toggleClass("open");
+        $stylebox.toggleClass(styles);
+      });
+
+      $nav.addClass('topslide');
+
+      $styleli.on('click', function () {
+        var $this = $(this);
+        $this.siblings().removeClass('now');
+        $this.addClass('now');
+        var styles = $this.data('styles');
+        $nav.removeClass();
+        $nav.addClass(styles);
+        $nav.siblings('#style-box').removeClass();
+        $nav.siblings('#style-box').data('styles', styles);
+      });
+    });
+  </script>
+
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.popup-with-zoom-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
+      });
+
+      $('.popup-with-move-anim').magnificPopup({
+        type: 'inline',
+
+        fixedContentPos: false,
+        fixedBgPos: true,
+
+        overflowY: 'auto',
+
+        closeBtnInside: true,
+        preloader: false,
+
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-slide-bottom'
+      });
+    });
+  </script>
+
 </body>
+
 </html>
