@@ -37,6 +37,7 @@ Author URL: http://w3layouts.com */
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
+  --aspect-ratio: 16/9;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -340,7 +341,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   line-height: 1.2;
 }
 
-h1, .h1 {
+h1, p, .h1 {
   font-size: 2.5rem;
 }
 
@@ -12094,11 +12095,6 @@ a, a:hover {
   text-decoration: none;
 }
 
-iframe {
-  border: none;
-  display: block;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -12638,6 +12634,50 @@ h4.sub-title {
     font-size: 35px;
   }
 }
+svg#logo {
+  width: 50px;
+  margin-top: -10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .w3l-header a.navbar-brand {
+    font-size: 90px;
+  }
+  svg#logo {
+    width: 130px;
+    margin-top: -25px;
+  }
+  .w3l-index-block1 .content-photo img {
+    display: block;
+    width: 550px;
+    margin: 0 auto;
+  }
+  .w3l-index-block1 .content-photo .dcomp {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  .w3l-index-block1 .content {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background: #fafafa;
+  }
+  .w3l-index-block1 .content-left h3 {
+    font-size: 75px;
+    line-height: 85px;
+    color: #323757;
+    font-weight: 600;
+  }
+  .w3l-index-block1 .content-left p {
+    color: var(--text-color);
+    font-size: 45px;
+    line-height: 65px;
+    font-weight: 400;
+    max-width: 1400px;
+  }
+}
 
 .w3l-index2 .features-main {
   background-color: var(--light-bg-color);
@@ -12801,6 +12841,70 @@ h4.sub-title {
   font-size: 18px
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  .w3l-index3 ul.w3l-right-book li {
+    margin-bottom: 10px;
+    color: var(--title-color);
+    font-size: 45px;
+    list-style: inside;
+    font-weight: 400;
+    list-style-type: none;
+  }
+  .w3l-index3 ul.w3l-right-book li span {
+    color: var(--secondary-color);
+    font-size: 12px;
+    margin-right: 10px;
+    opacity: 0.4;
+  }
+  .w3l-index3 .container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .w3l-index3 .about-right-faq h6 {
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  .w3l-index3 .about-right-faq h3 {
+    color: var(--title-color);
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+  }
+  .w3l-index3 .about-right-faq h2 {
+    color: var(--title-color);
+    font-size: 75px;
+    line-height: 85px;
+    font-weight: 500;
+  }
+  .w3l-index3 .about-right-faq p {
+    color: var(--title-color);
+    font-size: 45px;
+    line-height: 65px;
+    font-weight: 400;
+    max-width: 1400px;
+    text-align: justify;
+  }
+  .w3l-index3 .about-right-faq a {
+    color: var(--light);
+    border: 2px solid #111;
+    background-color: #111;
+    font-size: 45px;
+    margin-bottom: 50px;
+    margin-left: 5vw;
+  }
+  .w3l-index3 .about-right-faq a:hover {
+    color: var(--title-color);
+    border: 2px solid #111;
+    font-size: 45px;
+    align-self: center;
+  }
+}
+
 .w3l-index4 .gotocontact {
   background: var(--light-bg-color);
   padding-top: 150px;
@@ -12948,6 +13052,74 @@ h4.sub-title {
   }
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .w3l-index5 {
+    background: var(--light-bg-color);
+  }
+  .w3l-index5 .new-block {
+    display: grid;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  .w3l-index5 .middle-section {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  .w3l-index5 .middle-section h2 {
+    color: var(--title-color);
+    font-size: 78px;
+    line-height: 85px;
+    font-weight: 500;
+  }
+  .w3l-index5 .middle-section li {
+    color: var(--title-color);
+    font-size: 50px;
+    line-height: 75px;
+    font-weight: 500;
+  }
+  .w3l-index5 .middle-section h6 {
+    color: var(--blue);
+    font-size: 50px;
+    line-height: 75px;
+    font-weight: 500;
+  }
+  .w3l-index5 .section-width p {
+    color: var(--title-color);
+    font-size: 50px;
+    line-height: 75px;
+    font-weight: 400;
+    margin-top: 75px;
+  }
+  .w3l-index5 span.video-play-icon {
+    background: #fff;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    -webkit-animation: ripple 1s linear infinite;
+    animation: ripple 1s linear infinite;
+  }
+  .w3l-index5 img.video-popup-image {
+    box-shadow: var(--card-box-shadow);
+  }
+  .w3l-index5 span.video-play-icon span {
+    color: var(--primary-color);
+  }
+  .w3l-index5 span.video-play-icon:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+  .w3l-index5 span.fa.fa-play {
+    line-height: 55px;
+  }
+  .w3l-index5 .history-info {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
 .w3l-index6 #grids5-block {
   background: var(--light-bg-color);
 }
@@ -13076,6 +13248,14 @@ h4.sub-title {
   }
 }
 
+@viewport {
+  width: 1920px;
+  zoom: 1;
+  min-zoom: 0.5;
+  max-zoom: 1;
+  user-zoom: fixed;
+}
+
 .w3l-index7 {
   background: var(--light-bg-color);
 }
@@ -13083,11 +13263,11 @@ h4.sub-title {
 .w3l-index7 .new-block {
   display: grid;
   align-items: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .w3l-index7 .middle-section {
-  max-width: 1000px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -13097,7 +13277,8 @@ h4.sub-title {
   line-height: 55px;
   font-weight: 500;
 }
-.w3l-index7 .middle-section  h1 {
+
+.w3l-index7 .middle-section h1 {
   color: var(--title-color);
   font-size: 28px;
   line-height: 55px;
@@ -13624,12 +13805,6 @@ img.mfp-img {
   max-width: 750px;
   margin: 40px auto;
   position: relative;
-}
-
-div#small-dialog iframe {
-  width: 100%;
-  height: 400px;
-  display: block;
 }
 
 /**
@@ -14914,6 +15089,14 @@ button.owl-next {
   color: var(--blue);
 }
 
+.main {
+  padding: 0 25px;
+  max-width: 2000px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: white;
+}
+
 .presentation {
   list-style: none;
   margin-bottom: 40px;
@@ -14925,60 +15108,6 @@ button.owl-next {
   width: 100%;
   height: 700px;
 }
-
-.ex3 {
-  background-color: transparent;
-  width: 100%;
-  height: 500px;
-  overflow: auto;
-}
-
-.fontePais {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 13px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  color: #3c3f41;
-  margin-left: 10px;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: normal;
-  text-transform: none;
-}
-
-.fixedElement {
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: center;
-  vertical-align: center;
-  margin-top: 15px;
-  margin-right: 10px;
-  width: 450px;
-  height: 40px;
-  z-index: 100;
-}
-
-.tituloTabela {
-  background: #3c3f41;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 14px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: normal;
-  text-transform: none;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  height: 25px;
-}
-
-/*
-Generic Styling, for Desktops/Laptops
-*/
 
 table {
   width: 100%;
@@ -15002,4 +15131,34 @@ td, th {
   padding: 6px;
   border: 1px solid #ccc;
   text-align: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .w3l-footer .footer-29 .container div {
+    font-size: 45px;
+    line-height: 65px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  .w3l-footer .footer-list-29 p {
+    color: var(--text-color);
+    font-size: 45px;
+    line-height: 65px;
+    max-width: 1400px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .w3l-footer h6.footer-title-29 {
+    color: var(--title-color);
+    font-size: 65px;
+    line-height: 85px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  .w3l-footer .copy-footer-29, .w3l-footer p.sub-paragraph {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+    color: var(--text-color);
+}
 }
