@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-04-07 13:11:57
+Gerado em:  2020-04-07 13:31:48
 RMSE(%):  12.2 , BIAS(%): 0.85
 
 Taxa de Mortalidade 4.71 %
@@ -28,7 +28,7 @@ Taxa de Mortalidade 4.71 %
 106  Brazil 2020-04-13    14888           16955      19022               798                NA                 NA        0         0
 107  Brazil 2020-04-14    15267           17387      19507               818                NA                 NA        0         0
 
-Total de casos no mundo:  1383436 1383436
+Total de casos no mundo:  1386807 1386807
 
 Estimados a partir dos dados da OMS:
     day       date     x  xest
