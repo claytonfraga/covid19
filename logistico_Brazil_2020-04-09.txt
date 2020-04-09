@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-04-09 16:33:39
+Gerado em:  2020-04-09 16:53:00
 RMSE(%):  10.1 , BIAS(%): 1.32
 
 Taxa de Mortalidade 5.09 %
@@ -28,7 +28,7 @@ Taxa de Mortalidade 5.09 %
 108  Brazil 2020-04-15    21226           23622      26018              1203                NA                 NA        0         0
 109  Brazil 2020-04-16    22006           24490      26974              1247                NA                 NA        0         0
 
-Total de casos no mundo:  1584955 1584955
+Total de casos no mundo:  1584982 1584982
 
 Estimados a partir dos dados da OMS:
     day       date     x  xest
@@ -238,7 +238,15 @@ Todos os dados gerados
 98   Brazil 2020-04-05    10140           11284      12428               575             11130                553        0         0
 99   Brazil 2020-04-06    11309           12585      13861               641             12056                667        0         0
 100  Brazil 2020-04-07    12513           13925      15337               709             13717                800        0         0
- [ reached 'max' / getOption("max.print") -- omitted 9 rows ]
+101  Brazil 2020-04-08    13732           15282      16832               778             15927                839        0         0
+102  Brazil 2020-04-09    14949           16636      18323               847             16474                839        0         0
+103  Brazil 2020-04-10    16142           17964      19786               915                NA                 NA        0         0
+104  Brazil 2020-04-11    17293           19245      21197               980                NA                 NA        0         0
+105  Brazil 2020-04-12    18389           20464      22539              1042                NA                 NA        0         0
+106  Brazil 2020-04-13    19414           21605      23796              1100                NA                 NA        0         0
+107  Brazil 2020-04-14    20362           22660      24958              1154                NA                 NA        0         0
+108  Brazil 2020-04-15    21226           23622      26018              1203                NA                 NA        0         0
+109  Brazil 2020-04-16    22006           24490      26974              1247                NA                 NA        0         0
 
 Fontes:
 	OMS - https://ourworldindata.org/coronavirus-source-data
