@@ -1,7 +1,7 @@
 
  Italy 
 Projecao:  7  dias
-Gerado em:  2020-04-10 23:51:58
+Gerado em:  2020-04-10 23:50:11
 RMSE(%):  5.1 , BIAS(%): 1.1
 
 Taxa de Mortalidade 12.77 %
@@ -160,7 +160,7 @@ Achieved convergence tolerance: 0.0000000149
 
 
 Italy: o primeiro caso foi registrado em 30/01/2020 na data 10/04/2020 temos 71 dias desde o primeiro caso. A data de pico prevista pelo modelo logístico é 27/04/2020 (dia 88 desde os primeiros casos relatados).
-Em 27/04/2020 o modelo estima 155132+/-5.06287048449424 casos. De acordo com o modelo ajustado temos 17 de infecçao pela frente.
+Em 27/04/2020 o modelo estima 155132+/-1170 casos. De acordo com o modelo ajustado temos 17 de infecçao pela frente.
 
 Todos os dados gerados
     country       dias otimista casos_estimados pessimista estimativa_mortes casos_confirmados mortes_confirmadas latitude longitude
@@ -264,7 +264,16 @@ Todos os dados gerados
 98    Italy 2020-04-05   123345          129923     136501             16594            128948              16525 41.87194  12.56738
 99    Italy 2020-04-06   126348          133086     139824             16998            132547              17129 41.87194  12.56738
 100   Italy 2020-04-07   129030          135911     142792             17359            135586              17669 41.87194  12.56738
- [ reached 'max' / getOption("max.print") -- omitted 10 rows ]
+101   Italy 2020-04-08   131411          138419     145427             17679            139422              18281 41.87194  12.56738
+102   Italy 2020-04-09   133515          140635     147755             17962            143626              18849 41.87194  12.56738
+103   Italy 2020-04-10   135365          142584     149803             18211            147577              18849 41.87194  12.56738
+104   Italy 2020-04-11   136986          144291     151596             18429                NA                 NA 41.87194  12.56738
+105   Italy 2020-04-12   138400          145781     153162             18620                NA                 NA 41.87194  12.56738
+106   Italy 2020-04-13   139632          147078     154524             18785                NA                 NA 41.87194  12.56738
+107   Italy 2020-04-14   140700          148203     155706             18929                NA                 NA 41.87194  12.56738
+108   Italy 2020-04-15   141625          149178     156731             19053                NA                 NA 41.87194  12.56738
+109   Italy 2020-04-16   142425          150020     157615             19161                NA                 NA 41.87194  12.56738
+110   Italy 2020-04-17   143114          150746     158378             19254                NA                 NA 41.87194  12.56738
 
 Fontes:
 	OMS - https://ourworldindata.org/coronavirus-source-data
