@@ -1,8 +1,8 @@
 
  Italy 
 Projecao:  7  dias
-Gerado em:  2020-04-10 19:10:43
-RMSE(%):  5.1 , BIAS(%): 1.1
+Gerado em:  2020-04-10 22:42:58
+RMSE(%):  1170 , BIAS(%): 1.1
 
 Taxa de Mortalidade 12.77 %
 
@@ -28,7 +28,7 @@ Taxa de Mortalidade 12.77 %
 109   Italy 2020-04-16   142425          150020     157615             19161                NA                 NA 41.87194  12.56738
 110   Italy 2020-04-17   143114          150746     158378             19254                NA                 NA 41.87194  12.56738
 
-Total de casos no mundo:  1694786 533689 820044 274564 44740 7573 13455 721 1694786
+Total de casos no mundo:  1698881 536841 820109 275087 44976 7608 13539 721 1698881
 
 Estimados a partir dos dados da OMS:
     day       date      x   xest
@@ -136,6 +136,12 @@ Estimados a partir dos dados da OMS:
 102 102 2020-04-09 143626 140635
 103 103 2020-04-10 147577 142584
 
+Intervalo de Confianca
+             2.5%         97.5%
+Asym 152824.37088 157565.081319
+xmid     87.35589     87.916690
+scal      6.16672      6.485551
+
 
 Formula: x ~ SSlogis(day, Asym, xmid, scal)
 
@@ -153,6 +159,8 @@ Number of iterations to convergence: 11
 Achieved convergence tolerance: 0.0000000149
 
 
+Italy: o primeiro caso foi registrado em 30/01/2020 na data 10/04/2020 temos 71 dias desde o primeiro caso. A data de pico prevista pelo modelo logístico é 27/04/2020 (dia 88 desde os primeiros casos relatados).
+Em 27/04/2020 o modelo estima 155132+/-1170 casos. De acordo com o modelo ajustado temos 17 de infecçao pela frente.
 
 Todos os dados gerados
     country       dias otimista casos_estimados pessimista estimativa_mortes casos_confirmados mortes_confirmadas latitude longitude

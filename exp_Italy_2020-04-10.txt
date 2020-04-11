@@ -1,7 +1,7 @@
 
  Italy 
 Projecao:  7  dias
-Gerado em:  2020-04-10 19:12:36
+Gerado em:  2020-04-10 22:02:52
 RMSE(%):  34.4 , BIAS(%): 9.01
 
 Taxa de Mortalidade 12.77 %
@@ -28,7 +28,7 @@ Taxa de Mortalidade 12.77 %
 109   Italy 2020-04-16   168976          257545     346114             32894                NA                 NA 41.87194  12.56738
 110   Italy 2020-04-17   180420          274987     369554             35122                NA                 NA 41.87194  12.56738
 
-Total de casos no mundo:  1694943 533829 820044 274564 44740 7573 13472 721 1694943
+Total de casos no mundo:  1697802 536283 820109 274566 44976 7608 13539 721 1697802
 
 Estimados a partir dos dados da OMS:
     day       date      x   xest
@@ -136,22 +136,29 @@ Estimados a partir dos dados da OMS:
 102 102 2020-04-09 143626 162794
 103 103 2020-04-10 147577 173819
 
+Intervalo de Confianca
+        2.5%     97.5%
+b  138.07561 293.23337
+y0  14.37746  16.20053
+
 
 Formula: x ~ SSexp(day, b, y0)
 
 Parameters:
-   Estimate Std. Error t value             Pr(>|t|)    
-b  203.6135    43.8400   4.644            0.0000103 ***
-y0  15.2603     0.5214  29.267 < 0.0000000000000002 ***
+   Estimate Std. Error t value      Pr(>|t|)    
+b   6131.96     616.64   9.944 0.00000885067 ***
+y0    32.31       1.06  30.484 0.00000000146 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 8466 on 101 degrees of freedom
+Residual standard error: 1190 on 8 degrees of freedom
 
-Number of iterations to convergence: 11 
+Number of iterations to convergence: 20 
 Achieved convergence tolerance: 0.0000000149
 
-
+Considerando os casos dos últimos 10 dias, temos:
+Número de dias para dobrar:  0
+Razao de crescimento:  6131.96
 
 Todos os dados gerados
     country       dias otimista casos_estimados pessimista estimativa_mortes casos_confirmados mortes_confirmadas latitude longitude
@@ -255,16 +262,7 @@ Todos os dados gerados
 98    Italy 2020-04-05    82182          125257     168332             15998            128948              16525 41.87194  12.56738
 99    Italy 2020-04-06    87747          133740     179733             17082            132547              17129 41.87194  12.56738
 100   Italy 2020-04-07    93690          142798     191906             18239            135586              17669 41.87194  12.56738
-101   Italy 2020-04-08   100035          152468     204901             19474            139422              18281 41.87194  12.56738
-102   Italy 2020-04-09   106810          162794     218778             20793            143626              18849 41.87194  12.56738
-103   Italy 2020-04-10   114043          173819     233595             22201            147577              18849 41.87194  12.56738
-104   Italy 2020-04-11   121767          185591     249415             23704                NA                 NA 41.87194  12.56738
-105   Italy 2020-04-12   130014          198160     266306             25310                NA                 NA 41.87194  12.56738
-106   Italy 2020-04-13   138819          211580     284341             27024                NA                 NA 41.87194  12.56738
-107   Italy 2020-04-14   148221          225910     303599             28854                NA                 NA 41.87194  12.56738
-108   Italy 2020-04-15   158258          241209     324160             30808                NA                 NA 41.87194  12.56738
-109   Italy 2020-04-16   168976          257545     346114             32894                NA                 NA 41.87194  12.56738
-110   Italy 2020-04-17   180420          274987     369554             35122                NA                 NA 41.87194  12.56738
+ [ reached 'max' / getOption("max.print") -- omitted 10 rows ]
 
 Fontes:
 	OMS - https://ourworldindata.org/coronavirus-source-data
