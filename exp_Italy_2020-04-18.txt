@@ -1,7 +1,7 @@
 
  Italy 
 Projecao:  7  dias
-Gerado em:  2020-04-18 16:32:08
+Gerado em:  2020-04-18 16:51:23
 RMSE(%):  35.4 , BIAS(%): 9.45
 
 Taxa de Mortalidade 13.2 %
