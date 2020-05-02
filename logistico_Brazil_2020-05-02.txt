@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-05-02 07:51:33
+Gerado em:  2020-05-02 08:41:54
 RMSE(%):  9.6 , BIAS(%): 2.1
 
 Taxa de Mortalidade 6.95 %
@@ -17,7 +17,7 @@ Taxa de Mortalidade 6.95 %
 120  Brazil 2020-04-27    61860           68399      74938              4757             66501               5017        0         0
 121  Brazil 2020-04-28    66124           73113      80102              5084             71886               5466        0         0
 122  Brazil 2020-04-29    70530           77985      85440              5423             78162               5901        0         0
-123  Brazil 2020-04-30    75065           83000      90935              5772             85380               6329        0         0
+123  Brazil 2020-04-30    75066           83000      90934              5772             85380               6329        0         0
 124  Brazil 2020-05-01    79713           88139      96565              6129             91589               6412        0         0
 125  Brazil 2020-05-02    84454           93381     102308              6494             92202               6412        0         0
 126  Brazil 2020-05-03    89267           98703     108139              6864                NA                 NA        0         0
@@ -26,9 +26,9 @@ Taxa de Mortalidade 6.95 %
 129  Brazil 2020-05-06   103920          114904     125888              7991                NA                 NA        0         0
 130  Brazil 2020-05-07   108797          120297     131797              8366                NA                 NA        0         0
 131  Brazil 2020-05-08   113633          125644     137655              8738                NA                 NA        0         0
-132  Brazil 2020-05-09   118404          130920     143436              9105                NA                 NA        0         0
+132  Brazil 2020-05-09   118404          130919     143434              9104                NA                 NA        0         0
 
-Total de casos no mundo:  3416438 1227293 1411173 536905 190321 8370 41655 721 3416438
+Total de casos no mundo:  3417943 1227657 1411476 537721 190321 8370 41677 721 3417943
 
 Estimados a partir dos dados da OMS:
     day       date     x  xest
@@ -119,7 +119,7 @@ Estimados a partir dos dados da OMS:
 85   85 2020-03-23  1891  3162
 86   86 2020-03-24  2201  3482
 87   87 2020-03-25  2433  3834
-88   88 2020-03-26  2915  4222
+88   88 2020-03-26  2915  4221
 89   89 2020-03-27  3417  4647
 90   90 2020-03-28  3904  5114
 91   91 2020-03-29  4256  5628
@@ -160,7 +160,7 @@ Estimados a partir dos dados da OMS:
 
 Intervalo de Confianca
              2.5%        97.5%
-Asym 195013.07804 257473.62324
+Asym 195013.08075 257473.62085
 xmid    126.01330    130.81442
 scal      9.81207     10.61533
 
@@ -169,20 +169,20 @@ Formula: x ~ SSlogis(day, Asym, xmid, scal)
 
 Parameters:
         Estimate  Std. Error t value            Pr(>|t|)    
-Asym 221068.7214  15834.2441   13.96 <0.0000000000000002 ***
-xmid    128.1928      1.2467  102.83 <0.0000000000000002 ***
+Asym 221067.8843  15834.0955   13.96 <0.0000000000000002 ***
+xmid    128.1927      1.2467  102.83 <0.0000000000000002 ***
 scal     10.2038      0.2156   47.33 <0.0000000000000002 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 974.5 on 122 degrees of freedom
 
-Number of iterations to convergence: 8 
+Number of iterations to convergence: 12 
 Achieved convergence tolerance: 0.0000000149
 
 
 Brazil: o primeiro caso foi registrado em 25/02/2020 na data 02/05/2020 temos 67 dias desde o primeiro caso. A data de pico prevista pelo modelo logístico é 02/07/2020 (dia 128 desde os primeiros casos relatados).
-Em 02/07/2020 o modelo estima 221069+/-15834 casos. De acordo com o modelo ajustado temos 61 de infecçao pela frente.
+Em 02/07/2020 o modelo estima 221068+/-15834 casos. De acordo com o modelo ajustado temos 61 de infecçao pela frente.
 
 Todos os dados gerados
     country       dias otimista casos_estimados pessimista estimativa_mortes casos_confirmados mortes_confirmadas latitude longitude
@@ -273,7 +273,7 @@ Todos os dados gerados
 85   Brazil 2020-03-23     2860            3162       3464               220              1891                 46        0         0
 86   Brazil 2020-03-24     3149            3482       3815               242              2201                 57        0         0
 87   Brazil 2020-03-25     3467            3834       4201               267              2433                 77        0         0
-88   Brazil 2020-03-26     3818            4222       4626               294              2915                 92        0         0
+88   Brazil 2020-03-26     3817            4221       4625               294              2915                 92        0         0
 89   Brazil 2020-03-27     4203            4647       5091               323              3417                114        0         0
 90   Brazil 2020-03-28     4625            5114       5603               356              3904                136        0         0
 91   Brazil 2020-03-29     5090            5628       6166               391              4256                159        0         0
@@ -308,7 +308,7 @@ Todos os dados gerados
 120  Brazil 2020-04-27    61860           68399      74938              4757             66501               5017        0         0
 121  Brazil 2020-04-28    66124           73113      80102              5084             71886               5466        0         0
 122  Brazil 2020-04-29    70530           77985      85440              5423             78162               5901        0         0
-123  Brazil 2020-04-30    75065           83000      90935              5772             85380               6329        0         0
+123  Brazil 2020-04-30    75066           83000      90934              5772             85380               6329        0         0
 124  Brazil 2020-05-01    79713           88139      96565              6129             91589               6412        0         0
 125  Brazil 2020-05-02    84454           93381     102308              6494             92202               6412        0         0
 126  Brazil 2020-05-03    89267           98703     108139              6864                NA                 NA        0         0
@@ -317,7 +317,7 @@ Todos os dados gerados
 129  Brazil 2020-05-06   103920          114904     125888              7991                NA                 NA        0         0
 130  Brazil 2020-05-07   108797          120297     131797              8366                NA                 NA        0         0
 131  Brazil 2020-05-08   113633          125644     137655              8738                NA                 NA        0         0
-132  Brazil 2020-05-09   118404          130920     143436              9105                NA                 NA        0         0
+132  Brazil 2020-05-09   118404          130919     143434              9104                NA                 NA        0         0
 
 Fontes:
 	OMS - https://ourworldindata.org/coronavirus-source-data
