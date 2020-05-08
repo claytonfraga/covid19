@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-05-07 22:49:39
+Gerado em:  2020-05-07 22:54:55
 RMSE(%):  7.7 , BIAS(%): 1.94
 
 Taxa de Mortalidade 6.77 %
@@ -127,7 +127,7 @@ Estimados a partir dos dados da OMS:
 93   93 2020-03-31   5717   7267
 94   94 2020-04-01   6836   7935
 95   95 2020-04-02   7910   8662
-96   96 2020-04-03   9056   9454
+96   96 2020-04-03   9056   9453
 97   97 2020-04-04  10278  10316
 98   98 2020-04-05  11130  11254
 99   99 2020-04-06  12056  12275
@@ -165,7 +165,7 @@ Estimados a partir dos dados da OMS:
 
 Intervalo de Confianca
              2.5%        97.5%
-Asym 325514.98277 433768.76256
+Asym 325514.99539 433768.75071
 xmid    134.29750    139.40119
 scal     10.79997     11.51668
 
@@ -174,20 +174,20 @@ Formula: x ~ SSlogis(day, Asym, xmid, scal)
 
 Parameters:
         Estimate  Std. Error t value            Pr(>|t|)    
-Asym 370680.1947  27341.9038   13.56 <0.0000000000000002 ***
-xmid    136.6248      1.3196  103.53 <0.0000000000000002 ***
+Asym 370676.2172  27341.2062   13.56 <0.0000000000000002 ***
+xmid    136.6246      1.3196  103.54 <0.0000000000000002 ***
 scal     11.1511      0.1905   58.53 <0.0000000000000002 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 1111 on 127 degrees of freedom
 
-Number of iterations to convergence: 14 
+Number of iterations to convergence: 9 
 Achieved convergence tolerance: 0.0000000149
 
 
 Brazil: o primeiro caso foi registrado em 25/02/2020 na data 07/05/2020 temos 72 dias desde o primeiro caso. A data de pico prevista pelo modelo logístico é 11/07/2020 (dia 137 desde os primeiros casos relatados).
-Em 11/07/2020 o modelo estima 370680+/-27342 casos. De acordo com o modelo ajustado temos 65 de infecçao pela frente.
+Em 11/07/2020 o modelo estima 370676+/-27341 casos. De acordo com o modelo ajustado temos 65 de infecçao pela frente.
 
 Todos os dados gerados
     country       dias otimista casos_estimados pessimista estimativa_mortes casos_confirmados mortes_confirmadas latitude longitude
@@ -286,7 +286,7 @@ Todos os dados gerados
 93   Brazil 2020-03-31     6705            7267       7829               492              5717                241        0         0
 94   Brazil 2020-04-01     7322            7935       8548               537              6836                299        0         0
 95   Brazil 2020-04-02     7993            8662       9331               587              7910                359        0         0
-96   Brazil 2020-04-03     8723            9454      10185               640              9056                432        0         0
+96   Brazil 2020-04-03     8722            9453      10184               640              9056                432        0         0
 97   Brazil 2020-04-04     9519           10316      11113               699             10278                486        0         0
 98   Brazil 2020-04-05    10384           11254      12124               762             11130                553        0         0
 99   Brazil 2020-04-06    11326           12275      13224               831             12056                667        0         0
