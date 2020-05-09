@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-05-09 13:28:44
+Gerado em:  2020-05-09 13:53:40
 RMSE(%):  7.2 , BIAS(%): 1.74
 
 Taxa de Mortalidade 6.82 %
@@ -28,7 +28,7 @@ Taxa de Mortalidade 6.82 %
 138  Brazil 2020-05-15   186650          201123     215596             13718                NA                 NA        0         0
 139  Brazil 2020-05-16   194882          209993     225104             14323                NA                 NA        0         0
 
-Total de casos no mundo:  4055572 1450893 1604417 283729 646835 60452 8525 721 4055572
+Total de casos no mundo:  4057900 1451621 1604417 283729 648381 60506 8525 721 4057900
 
 Estimados a partir dos dados da OMS:
     day       date      x   xest
