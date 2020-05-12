@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-05-11 20:28:26
+Gerado em:  2020-05-11 20:54:26
 RMSE(%):  6.6 , BIAS(%): 1.63
 
 Taxa de Mortalidade 6.84 %
@@ -28,7 +28,7 @@ Taxa de Mortalidade 6.84 %
 140  Brazil 2020-05-17   215458          230769     246080             15792                NA                 NA        0         0
 141  Brazil 2020-05-18   225149          241149     257149             16502                NA                 NA        0         0
 
-Total de casos no mundo:  4250251 1517287 1653012 319297 683637 67748 8549 721 4250251
+Total de casos no mundo:  4250862 1517868 1653012 319297 683637 67778 8549 721 4250862
 
 Estimados a partir dos dados da OMS:
     day       date      x   xest
@@ -169,7 +169,7 @@ Estimados a partir dos dados da OMS:
 
 Intervalo de Confianca
              2.5%        97.5%
-Asym 429361.71092 547012.45738
+Asym 429361.71553 547012.45477
 xmid    138.81998    143.28591
 scal     11.24387     11.87601
 
@@ -178,20 +178,20 @@ Formula: x ~ SSlogis(day, Asym, xmid, scal)
 
 Parameters:
         Estimate  Std. Error t value            Pr(>|t|)    
-Asym 479945.7445  30171.9170   15.91 <0.0000000000000002 ***
-xmid    140.8868      1.1645  120.98 <0.0000000000000002 ***
+Asym 479944.4255  30171.7208   15.91 <0.0000000000000002 ***
+xmid    140.8867      1.1645  120.98 <0.0000000000000002 ***
 scal     11.5546      0.1678   68.88 <0.0000000000000002 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 1242 on 131 degrees of freedom
 
-Number of iterations to convergence: 14 
+Number of iterations to convergence: 9 
 Achieved convergence tolerance: 0.0000000149
 
 
 Brazil: o primeiro caso foi registrado em 25/02/2020 na data 11/05/2020 temos 76 dias desde o primeiro caso. A data de pico prevista pelo modelo logístico é 15/07/2020 (dia 141 desde os primeiros casos relatados).
-Em 15/07/2020 o modelo estima 479946+/-30172 casos. De acordo com o modelo ajustado temos 65 de infecçao pela frente.
+Em 15/07/2020 o modelo estima 479944+/-30172 casos. De acordo com o modelo ajustado temos 65 de infecçao pela frente.
 
 Todos os dados gerados
     country       dias otimista casos_estimados pessimista estimativa_mortes casos_confirmados mortes_confirmadas latitude longitude
