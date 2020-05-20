@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-05-19 22:42:28
+Gerado em:  2020-05-19 22:55:49
 RMSE(%):  10.3 , BIAS(%): 3.77
 
 Taxa de Mortalidade 6.61 %
@@ -188,7 +188,7 @@ Parameters:
 b   64.0777    13.1418   4.876        0.00123 ** 
 y0  16.9971     0.4279  39.724 0.000000000177 ***
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Residual standard error: 2793 on 8 degrees of freedom
 
