@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-05-23 11:27:36
+Gerado em:  2020-05-23 11:52:37
 RMSE(%):  5.2 , BIAS(%): 1.34
 
 Taxa de Mortalidade 6.34 %
