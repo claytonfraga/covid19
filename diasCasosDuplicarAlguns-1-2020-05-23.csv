@@ -1,0 +1,8 @@
+location;data;variavel;diasDuplicar;dataPrimeirosCasos;primeirosCasos;dataUltimosCasos;ultimosCasos;estimado
+Brazil;2020-05-22;total_cases;13;2020-05-12;177589;2020-05-22;330890;1.86
+China;2020-05-22;total_cases;104;2020-02-11;44724;2020-05-22;84081;1.88
+Germany;2020-05-22;total_cases;50;2020-04-05;95391;2020-05-22;177850;1.86
+Italy;2020-05-22;total_cases;51;2020-04-04;124632;2020-05-22;228658;1.83
+Spain;2020-05-22;total_cases;52;2020-04-02;126535;2020-05-21;234824;1.86
+United.States;2020-05-22;total_cases;32;2020-04-23;869172;2020-05-22;1601434;1.84
+World;2020-05-22;total_cases;30;2020-04-25;2835026;2020-05-22;5175476;1.83
