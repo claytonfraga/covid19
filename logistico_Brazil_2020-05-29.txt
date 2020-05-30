@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-05-29 20:55:03
+Gerado em:  2020-05-29 21:22:25
 RMSE(%):  4.4 , BIAS(%): 1.13
 
 Taxa de Mortalidade 5.97 %
@@ -26,9 +26,9 @@ Taxa de Mortalidade 5.97 %
 156  Brazil 2020-06-02   517263          541218     565173             32292                NA                 NA        0         0
 157  Brazil 2020-06-03   537398          562286     587174             33550                NA                 NA        0         0
 158  Brazil 2020-06-04   557536          583356     609176             34807                NA                 NA        0         0
-159  Brazil 2020-06-05   577619          604369     631119             36060                NA                 NA        0         0
+159  Brazil 2020-06-05   577618          604368     631118             36060                NA                 NA        0         0
 
-Total de casos no mundo:  6025974 2011591 800011 1986891 1080434 137544 8782 721 6025974
+Total de casos no mundo:  6026108 2011709 800011 1986907 1080434 137544 8782 721 6026108
 
 Estimados a partir dos dados da OMS:
     day       date      x   xest
@@ -187,7 +187,7 @@ Estimados a partir dos dados da OMS:
 
 Intervalo de Confianca
               2.5%         97.5%
-Asym 1058102.16628 1205271.30677
+Asym 1058102.17222 1205271.30580
 xmid     155.63937     158.55112
 scal      13.11899      13.59488
 
@@ -196,7 +196,7 @@ Formula: x ~ SSlogis(day, Asym, xmid, scal)
 
 Parameters:
          Estimate   Std. Error t value            Pr(>|t|)    
-Asym 1125963.2406   37565.8070   29.97 <0.0000000000000002 ***
+Asym 1125961.5260   37565.6669   29.97 <0.0000000000000002 ***
 xmid     157.0330       0.7478  209.99 <0.0000000000000002 ***
 scal      13.3543       0.1235  108.15 <0.0000000000000002 ***
 ---
@@ -204,12 +204,12 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 Residual standard error: 2351 on 149 degrees of freedom
 
-Number of iterations to convergence: 8 
+Number of iterations to convergence: 16 
 Achieved convergence tolerance: 0.0000000149
 
 
 Brazil: o primeiro caso foi registrado em 25/02/2020 na data 29/05/2020 temos 94 dias desde o primeiro caso. A data de pico prevista pelo modelo logístico é 31/07/2020 (dia 157 desde os primeiros casos relatados).
-Em 31/07/2020 o modelo estima 1125963+/-37566 casos. De acordo com o modelo ajustado temos 63 de infecçao pela frente.
+Em 31/07/2020 o modelo estima 1125962+/-37566 casos. De acordo com o modelo ajustado temos 63 de infecçao pela frente.
 
 Todos os dados gerados
     country       dias otimista casos_estimados pessimista estimativa_mortes casos_confirmados mortes_confirmadas latitude longitude
@@ -371,7 +371,7 @@ Todos os dados gerados
 156  Brazil 2020-06-02   517263          541218     565173             32292                NA                 NA        0         0
 157  Brazil 2020-06-03   537398          562286     587174             33550                NA                 NA        0         0
 158  Brazil 2020-06-04   557536          583356     609176             34807                NA                 NA        0         0
-159  Brazil 2020-06-05   577619          604369     631119             36060                NA                 NA        0         0
+159  Brazil 2020-06-05   577618          604368     631118             36060                NA                 NA        0         0
 
 Fontes:
 	OMS - https://ourworldindata.org/coronavirus-source-data
