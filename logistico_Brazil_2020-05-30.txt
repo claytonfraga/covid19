@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-05-30 20:53:55
+Gerado em:  2020-05-30 21:22:13
 RMSE(%):  4.7 , BIAS(%): 1.2
 
 Taxa de Mortalidade 5.78 %
@@ -12,7 +12,7 @@ Taxa de Mortalidade 5.78 %
 143  Brazil 2020-05-20   277487          291321     305155             16852            291579              20047        0         0
 144  Brazil 2020-05-21   293413          308041     322669             17820            310087              21048        0         0
 145  Brazil 2020-05-22   309941          325393     340845             18823            330890              22013        0         0
-146  Brazil 2020-05-23   327057          343363     359669             19863            347398              22666        0         0
+146  Brazil 2020-05-23   327058          343364     359670             19863            347398              22666        0         0
 147  Brazil 2020-05-24   344747          361935     379123             20937            363211              23473        0         0
 148  Brazil 2020-05-25   362989          381086     399183             22045            374898              24512        0         0
 149  Brazil 2020-05-26   381756          400789     419822             23185            391222              25598        0         0
@@ -28,7 +28,7 @@ Taxa de Mortalidade 5.78 %
 159  Brazil 2020-06-05   589849          619256     648663             35823                NA                 NA        0         0
 160  Brazil 2020-06-06   611609          642101     672593             37145                NA                 NA        0         0
 
-Total de casos no mundo:  6149733 2040106 844617 2004226 1107521 143748 8794 721 6149733
+Total de casos no mundo:  6150481 2040833 844617 2004226 1107521 143769 8794 721 6150481
 
 Estimados a partir dos dados da OMS:
     day       date      x   xest
@@ -177,7 +177,7 @@ Estimados a partir dos dados da OMS:
 143 143 2020-05-20 291579 291321
 144 144 2020-05-21 310087 308041
 145 145 2020-05-22 330890 325393
-146 146 2020-05-23 347398 343363
+146 146 2020-05-23 347398 343364
 147 147 2020-05-24 363211 361935
 148 148 2020-05-25 374898 381086
 149 149 2020-05-26 391222 400789
@@ -188,7 +188,7 @@ Estimados a partir dos dados da OMS:
 
 Intervalo de Confianca
               2.5%         97.5%
-Asym 1158175.35610 1344611.01123
+Asym 1158175.36013 1344611.01010
 xmid     157.50975     160.85408
 scal      13.34244      13.86327
 
@@ -197,7 +197,7 @@ Formula: x ~ SSlogis(day, Asym, xmid, scal)
 
 Parameters:
          Estimate   Std. Error t value            Pr(>|t|)    
-Asym 1243167.8969   47318.0551   26.27 <0.0000000000000002 ***
+Asym 1243166.7349   47317.9478   26.27 <0.0000000000000002 ***
 xmid     159.1019       0.8554  186.00 <0.0000000000000002 ***
 scal      13.5998       0.1349  100.78 <0.0000000000000002 ***
 ---
@@ -205,12 +205,12 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 Residual standard error: 2661 on 150 degrees of freedom
 
-Number of iterations to convergence: 8 
+Number of iterations to convergence: 15 
 Achieved convergence tolerance: 0.0000000149
 
 
 Brazil: o primeiro caso foi registrado em 25/02/2020 na data 30/05/2020 temos 95 dias desde o primeiro caso. A data de pico prevista pelo modelo logístico é 02/08/2020 (dia 159 desde os primeiros casos relatados).
-Em 02/08/2020 o modelo estima 1243168+/-47318 casos. De acordo com o modelo ajustado temos 64 de infecçao pela frente.
+Em 02/08/2020 o modelo estima 1243167+/-47318 casos. De acordo com o modelo ajustado temos 64 de infecçao pela frente.
 
 Todos os dados gerados
     country       dias otimista casos_estimados pessimista estimativa_mortes casos_confirmados mortes_confirmadas latitude longitude
@@ -359,7 +359,7 @@ Todos os dados gerados
 143  Brazil 2020-05-20   277487          291321     305155             16852            291579              20047        0         0
 144  Brazil 2020-05-21   293413          308041     322669             17820            310087              21048        0         0
 145  Brazil 2020-05-22   309941          325393     340845             18823            330890              22013        0         0
-146  Brazil 2020-05-23   327057          343363     359669             19863            347398              22666        0         0
+146  Brazil 2020-05-23   327058          343364     359670             19863            347398              22666        0         0
 147  Brazil 2020-05-24   344747          361935     379123             20937            363211              23473        0         0
 148  Brazil 2020-05-25   362989          381086     399183             22045            374898              24512        0         0
 149  Brazil 2020-05-26   381756          400789     419822             23185            391222              25598        0         0
