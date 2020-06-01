@@ -1,0 +1,8 @@
+location;data;variavel;diasDuplicar;dataPrimeirosCasos;primeirosCasos;dataUltimosCasos;ultimosCasos;estimado
+Brazil;2020-05-30;total_deaths;17;2020-05-16;15633;2020-05-30;28834;1.84
+China;2020-05-30;total_deaths;101;2020-02-22;2445;2020-05-30;4638;1.9
+Germany;2020-05-30;total_deaths;43;2020-04-20;4598;2020-05-30;8500;1.85
+Italy;2020-05-30;total_deaths;54;2020-04-09;18281;2020-05-30;33340;1.82
+Spain;2020-05-30;total_deaths;54;2020-04-08;14555;2020-05-29;27125;1.86
+United.States;2020-05-30;total_deaths;36;2020-04-27;56245;2020-05-30;103781;1.85
+World;2020-05-30;total_deaths;39;2020-04-24;199077;2020-05-30;368944;1.85
