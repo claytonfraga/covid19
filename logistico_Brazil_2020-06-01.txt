@@ -1,7 +1,11 @@
 
  Brazil 
 Projecao:  7  dias
+<<<<<<< HEAD
 Gerado em:  2020-06-01 14:03:23
+=======
+Gerado em:  2020-06-01 11:52:53
+>>>>>>> aaaf849b6b0fc6629d1a8ba89a74a1f8c6667104
 RMSE(%):  4.7 , BIAS(%): 1.01
 
 Taxa de Mortalidade 5.7 %
@@ -28,7 +32,11 @@ Taxa de Mortalidade 5.7 %
 161  Brazil 2020-06-07   628223          659365     690507             37566                NA                 NA        0         0
 162  Brazil 2020-06-08   649142          681321     713500             38817                NA                 NA        0         0
 
+<<<<<<< HEAD
 Total de casos no mundo:  6315908 2077103 883948 2031971 1161483 151868 8814 721 6315908
+=======
+Total de casos no mundo:  6300892 2072893 878477 2031464 1156973 151550 8814 721 6300892
+>>>>>>> aaaf849b6b0fc6629d1a8ba89a74a1f8c6667104
 
 Estimados a partir dos dados da OMS:
     day       date      x   xest
@@ -190,7 +198,11 @@ Estimados a partir dos dados da OMS:
 
 Intervalo de Confianca
               2.5%         97.5%
+<<<<<<< HEAD
 Asym 1133169.81525 1281993.45147
+=======
+Asym 1133169.81518 1281993.45148
+>>>>>>> aaaf849b6b0fc6629d1a8ba89a74a1f8c6667104
 xmid     156.99525     159.86400
 scal      13.25194      13.76009
 
@@ -199,7 +211,11 @@ Formula: x ~ SSlogis(day, Asym, xmid, scal)
 
 Parameters:
          Estimate   Std. Error t value            Pr(>|t|)    
+<<<<<<< HEAD
 Asym 1202002.4128   38103.0056   31.55 <0.0000000000000002 ***
+=======
+Asym 1202002.4342   38103.0072   31.55 <0.0000000000000002 ***
+>>>>>>> aaaf849b6b0fc6629d1a8ba89a74a1f8c6667104
 xmid     158.3691       0.7385  214.46 <0.0000000000000002 ***
 scal      13.5031       0.1319  102.39 <0.0000000000000002 ***
 ---
