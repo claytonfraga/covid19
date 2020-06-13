@@ -1,7 +1,7 @@
 
  Brazil 
 Projecao:  7  dias
-Gerado em:  2020-06-12 20:24:59
+Gerado em:  2020-06-12 20:48:18
 RMSE(%):  3.1 , BIAS(%): 0.82
 
 Taxa de Mortalidade 5.05 %
@@ -28,7 +28,7 @@ Taxa de Mortalidade 5.05 %
 172  Brazil 2020-06-18   949461          979775    1010089             49468                NA                 NA        0         0
 173  Brazil 2020-06-19   973059         1004126    1035193             50697                NA                 NA        0         0
 
-Total de casos no mundo:  7724281 2419445 1355379 2173578 1538665 227592 8901 721 7724281
+Total de casos no mundo:  7724613 2419760 1355379 2173578 1538665 227609 8901 721 7724613
 
 Estimados a partir dos dados da OMS:
     day       date      x   xest
@@ -210,7 +210,7 @@ Formula: x ~ SSlogis(day, Asym, xmid, scal)
 
 Parameters:
           Estimate    Std. Error t value            Pr(>|t|)    
-Asym 1522775.31694   21999.87234   69.22 <0.0000000000000002 ***
+Asym 1522775.31643   21999.87232   69.22 <0.0000000000000002 ***
 xmid     163.62001       0.38707  422.71 <0.0000000000000002 ***
 scal      14.19826       0.08812  161.13 <0.0000000000000002 ***
 ---
@@ -218,7 +218,7 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 Residual standard error: 3225 on 163 degrees of freedom
 
-Number of iterations to convergence: 9 
+Number of iterations to convergence: 15 
 Achieved convergence tolerance: 0.0000000149
 
 
