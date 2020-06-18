@@ -1,15 +1,12 @@
 
  Brazil 
-Projecao:  7  dias
-Gerado em:  2020-06-17 20:24:11
+Projecao:  10  dias
+Gerado em:  2020-06-17 20:43:58
 RMSE(%):  16.5 , BIAS(%): 5.15
 
 Taxa de Mortalidade 4.86 %
 
     country       dias otimista casos_estimados pessimista estimativa_mortes casos_confirmados mortes_confirmadas latitude longitude
-159  Brazil 2020-06-05   496301          594416     692531             28885            645762              35930        0         0
-160  Brazil 2020-06-06   520176          623011     725846             30274            672837              36455        0         0
-161  Brazil 2020-06-07   545200          652981     760762             31731            691758              37134        0         0
 162  Brazil 2020-06-08   571427          684393     797359             33257            707412              38406        0         0
 163  Brazil 2020-06-09   598916          717317     835718             34857            739503              39680        0         0
 164  Brazil 2020-06-10   627727          751823     875919             36534            772416              40919        0         0
@@ -27,8 +24,11 @@ Taxa de Mortalidade 4.86 %
 176  Brazil 2020-06-22  1103140         1321222    1539304             64203                NA                 NA        0         0
 177  Brazil 2020-06-23  1156207         1384780    1613353             67292                NA                 NA        0         0
 178  Brazil 2020-06-24  1211828         1451396    1690964             70529                NA                 NA        0         0
+179  Brazil 2020-06-25  1270123         1521216    1772309             73922                NA                 NA        0         0
+180  Brazil 2020-06-26  1331223         1594395    1857567             77478                NA                 NA        0         0
+181  Brazil 2020-06-27  1395262         1671094    1946926             81205                NA                 NA        0         0
 
-Total de casos no mundo:  8389495 2570954 1552767 2252407 1733193 270470 8983 721 8389495
+Total de casos no mundo:  8389824 2571164 1552767 2252407 1733193 270589 8983 721 8389824
 
 Estimados a partir dos dados da OMS:
     day       date      x    xest
@@ -408,6 +408,9 @@ Todos os dados gerados
 176  Brazil 2020-06-22  1103140         1321222    1539304             64203                NA                 NA        0         0
 177  Brazil 2020-06-23  1156207         1384780    1613353             67292                NA                 NA        0         0
 178  Brazil 2020-06-24  1211828         1451396    1690964             70529                NA                 NA        0         0
+179  Brazil 2020-06-25  1270123         1521216    1772309             73922                NA                 NA        0         0
+180  Brazil 2020-06-26  1331223         1594395    1857567             77478                NA                 NA        0         0
+181  Brazil 2020-06-27  1395262         1671094    1946926             81205                NA                 NA        0         0
 
 Fontes:
 	OMS - https://ourworldindata.org/coronavirus-source-data
